@@ -1,7 +1,10 @@
 [target='_blank'] {
   color: green;
 }
-h1 {
+h1,
+h2,
+h3,
+h4 {
   position: relative;
   left: 20px;
 }
@@ -14,12 +17,6 @@ ul {
 footer,
 header {
   border: 3px dashed blue;
-}
-
-h2,
-h3,
-h4 {
-  margin-left: 20px;
 }
 
 article.new {
