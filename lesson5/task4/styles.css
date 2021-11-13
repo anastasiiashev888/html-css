@@ -1,8 +1,13 @@
 [target='_blank'] {
   color: green;
 }
+h1 {
+  position: relative;
+  left: 20px;
+}
 
-li {
+ol,
+ul {
   background-color: yellow;
 }
 
@@ -16,9 +21,7 @@ h3,
 h4 {
   margin-left: 20px;
 }
-h1 {
-  margin-left: 20px;
-}
+
 article.new {
   font-size: 24px;
 }
