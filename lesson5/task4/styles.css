@@ -1,14 +1,12 @@
 [target='_blank'] {
   color: green;
 }
-h1 {
-  position: relative;
-  left: 16px;
-}
+h1,
 h2,
 h3,
 h4 {
-  margin-left: 16px;
+  position: relative;
+  left: 20px;
 }
 
 ol,
