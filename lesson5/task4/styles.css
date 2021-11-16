@@ -5,8 +5,7 @@ h1,
 h2,
 h3,
 h4 {
-  position: relative;
-  left: 20px;
+  margin-left: 20px;
 }
 
 ol,
