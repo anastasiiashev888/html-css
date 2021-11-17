@@ -1,22 +1,22 @@
-a[title*='popular'] {
-  font-size: 24px;
-}
-a[href^='broken'] {
-  border: 2px solid red;
-}
 li {
   margin-bottom: 16px;
 }
-a[target='_blank'] {
+[target='_blank'] {
   border: 2px solid black;
 }
-
-a[href$='.com'] {
+[href^='broken'] {
+  border: 2px solid red;
+}
+[href$='.com'] {
   margin-left: 50px;
 }
-[lang|='en'] {
+
+a[lang|='en'] {
   font-size: 10px;
 }
-a[href*='www'] {
+[href*='www'] {
   color: green;
+}
+a[title~='popular'] {
+  font-size: 24px;
 }
