@@ -11,12 +11,12 @@ li {
   margin-left: 50px;
 }
 
-a[lang|='en'] {
+a[lang*='en'] {
   font-size: 10px;
 }
 [href*='www'] {
   color: green;
 }
-a[title~='popular'] {
+a[title*='popular'] {
   font-size: 24px;
 }
