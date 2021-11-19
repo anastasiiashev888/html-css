@@ -1,0 +1,21 @@
+.theory::first-letter {
+  color: orange;
+  margin-left: 16px;
+  font-size: 36px;
+}
+.theory::first-line {
+  font-size: 24px;
+}
+h1 {
+  background-color: red;
+  color: white;
+  display: inline;
+}
+a::before {
+  content: '> ';
+  color: green;
+}
+a::after {
+  content: ' <';
+  color: green;
+}
