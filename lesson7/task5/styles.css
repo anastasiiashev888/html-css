@@ -1,5 +1,5 @@
 body {
-  color: #bdc3c7;
+  background-color: #bdc3c7;
 }
 h1 {
   color: #9b59b6;
@@ -9,6 +9,9 @@ h2 {
 }
 li {
   color: blue;
+}
+p {
+  background-color: yellow;
 }
 div:nth-child(5) {
   background-color: yellow;
