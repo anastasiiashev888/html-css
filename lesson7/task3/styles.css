@@ -5,17 +5,15 @@
 }
 .theory::first-line {
   font-size: 24px;
-}
-h1 {
   background-color: red;
   color: white;
-  display: inline;
 }
+
 a::before {
-  content: '> ';
+  content: '>';
   color: green;
 }
 a::after {
-  content: ' <';
+  content: '<';
   color: green;
 }
