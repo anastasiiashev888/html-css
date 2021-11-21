@@ -51,11 +51,11 @@ div {
 
 .absolute-parent {
   position: absolute;
-  bottom: 20;
+  bottom: 20px;
   right: 50px;
 }
 .fixed-parent {
   position: fixed;
-  bottom: 20;
+  bottom: 20px;
   left: 50px;
 }
