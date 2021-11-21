@@ -1,6 +1,7 @@
 .navigation {
   background-color: darkturquoise;
   height: 40px;
+  margin: -17px;
 }
 header {
   position: fixed;
@@ -12,7 +13,7 @@ header {
   height: 40px;
   color: white;
   margin-left: 16px;
-  padding: 10px;
+  padding: 10px 0px;
 }
 main {
   background-color: beige;
@@ -23,7 +24,9 @@ main {
   position: absolute;
   height: 200px;
   width: 200px;
-  margin: 50% 50%;
+  margin: calc(50vh);
+}
+div {
 }
 .ear.eye {
 }
