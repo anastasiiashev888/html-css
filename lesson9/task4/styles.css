@@ -10,8 +10,9 @@ header {
   height: 40px;
   color: white;
   margin-left: 16px;
-  position: relative;
+  margin-right: -1px;
 }
+
 .navigation {
   line-height: 40px;
   margin-top: -16px;
