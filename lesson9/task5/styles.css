@@ -3,6 +3,7 @@ div {
   width: 20%;
   display: inline-block;
   margin: -2px;
+  box-sizing: content-box;
 }
 .block_red {
   background-color: red;
