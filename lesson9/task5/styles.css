@@ -15,13 +15,14 @@ span {
 }
 .block_blue {
   background-color: blue;
-  float: right;
-}
-.block_yellow {
-  background-color: yellow;
-  float: right;
+  float: left;
 }
 
 .block_black {
   background-color: black;
+  float: right;
+}
+.block_yellow {
+  background-color: yellow;
+  float: left;
 }
