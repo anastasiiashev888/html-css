@@ -1,21 +1,18 @@
-body {
-    
-    flex-shrink: 1;
-    min-width: 300px;
+main {
+  display: flex;
 
-    
+  flex-wrap: wrap;
 }
 
-header{
-    display: flex;
-    justify-content: center;
-    
+header {
+  display: flex;
+  justify-content: center;
 }
-.article{
-    
-    padding: 16px;
-    margin: 8px;
-    background-color: bisque;
-    
-    
+.article {
+  padding: 16px;
+  margin: 8px;
+  background-color: bisque;
+  flex-direction: column;
+  flex-basis: 300px;
+  flex-grow: 1;
 }
