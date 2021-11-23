@@ -1,7 +1,9 @@
 main {
   display: flex;
-  flex-basis: auto;
   flex-wrap: wrap;
+}
+* {
+  box-sizing: border-box;
 }
 
 header {
