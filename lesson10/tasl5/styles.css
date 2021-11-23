@@ -1,7 +1,6 @@
 main {
   display: flex;
   flex-wrap: wrap;
-  box-sizing: border-box;
 }
 
 header {
@@ -15,4 +14,7 @@ header {
   flex-direction: column;
   flex-basis: 200px;
   flex-grow: 1;
+}
+body {
+  box-sizing: border-box;
 }
