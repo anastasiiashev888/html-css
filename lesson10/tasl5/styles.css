@@ -1,0 +1,21 @@
+body {
+    
+    flex-shrink: 1;
+    min-width: 300px;
+
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    
+}
+.article{
+    
+    padding: 16px;
+    margin: 8px;
+    background-color: bisque;
+    
+    
+}
