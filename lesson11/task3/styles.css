@@ -26,9 +26,10 @@
 .dropdown {
   margin: 16px;
   cursor: pointer;
-  margin: 16px;
 }
-
+body {
+  display: inline-block;
+}
 .menu-item {
   padding: 16px;
   list-style-type: none;
