@@ -1,0 +1,15 @@
+.text {
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px dotted black;
+  margin: 16px;
+  padding: 0px;
+}
+.tooltip {
+  display: inline-block;
+  background-color: gray;
+  color: white;
+  border-radius: 4px;
+  padding: 8px;
+  margin: -40px 16px 16px 16px;
+}
