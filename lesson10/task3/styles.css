@@ -30,12 +30,13 @@ main {
   margin: 0px;
   display: flex;
   list-style-type: none;
+
+  padding: 0px;
 }
 .navig1 {
   margin-left: 16px;
-  margin: 0px;
-  padding: 0px;
 }
+
 footer {
   background-color: green;
   display: flex;
@@ -51,11 +52,18 @@ footer {
 .www {
   list-style-type: none;
   margin: 0px;
-  margin-left: 16px;
   line-height: 40px;
+
+  padding: 0px;
+  margin-left: 16px;
 }
+.li1 {
+  margin: 0px;
+  padding: 0px;
+}
+
 .news4 {
   display: flex;
   justify-content: center;
-  padding: 16px;
+  padding: 0px 16px;
 }
