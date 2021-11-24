@@ -30,7 +30,7 @@
 }
 
 .menu-item {
-  margin: 16px;
+  padding: 16px;
   list-style-type: none;
 }
 .menu-list:hover {
