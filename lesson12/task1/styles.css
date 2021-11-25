@@ -1,9 +1,10 @@
 body {
-  margin: 20px;
+  margin: 32px;
 }
 * {
   font-family: Roboto, sans-serif;
   font-size: 18px;
+  box-sizing: border-box;
 }
 p {
   line-height: 29px;
