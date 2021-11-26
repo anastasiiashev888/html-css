@@ -4,7 +4,7 @@
 
   background-image: url(nature.jpeg);
   background-position: center;
-
+  background-color: red;
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 32px;
@@ -12,7 +12,4 @@
   text-align: center;
   padding-top: 32px;
   -webkit-text-fill-color: white;
-}
-* {
-  box-sizing: border-box;
 }
