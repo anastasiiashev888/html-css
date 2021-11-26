@@ -13,3 +13,6 @@
   padding-top: 32px;
   -webkit-text-fill-color: white;
 }
+* {
+  box-sizing: border-box;
+}
