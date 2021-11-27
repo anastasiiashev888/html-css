@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+.image-container {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg);
+  margin: 50px auto;
+
+  display: block;
+  max-width: 100%;
+  border-radius: 20px;
+}
+.gallery {
+  display: flex;
+}
+fieldset {
+  border: none;
+  text-align: center;
+  line-height: 30px;
+}
+.card-1 {
+  filter: opacity(50%);
+}
+.card-2 {
+  filter: blur(4px);
+}
+.card-3 {
+  filter: invert(100%);
+}
+.card {
+  margin: 16px;
+  box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
+}
