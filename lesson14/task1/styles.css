@@ -1,10 +1,14 @@
 html {
   font-size: 18px;
 }
-li {
+.properties-list__item {
   color: #f39;
   font-size: 24px;
   line-height: 32px;
   padding: 8px;
+  margin: 0px;
   list-style-type: none;
+}
+* {
+  box-sizing: border-box;
 }
