@@ -15,7 +15,7 @@
 fieldset {
   border: none;
   text-align: center;
-  line-height: 30px;
+  height: 30px;
 }
 .card-1 {
   filter: opacity(50%);
