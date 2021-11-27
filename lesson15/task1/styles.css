@@ -2,7 +2,9 @@
   box-sizing: border-box;
 }
 .image-container {
-  margin: 50px auto;
+  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
   display: block;
   border-radius: 20px;
   max-width: 100%;
