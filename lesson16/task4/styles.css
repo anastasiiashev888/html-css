@@ -18,10 +18,9 @@ form {
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 .form-title {
-  margin: 0px;
-  padding: 16px;
   text-align: center;
   text-transform: uppercase;
+  padding-bottom: 4px;
 }
 .form-input {
   width: 100%;
