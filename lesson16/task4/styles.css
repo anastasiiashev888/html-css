@@ -24,15 +24,14 @@ form {
 .form-input {
   width: 100%;
   margin-bottom: 8px;
+  margin-top: 4px;
   border-radius: 4px;
   height: 32px;
   border: 1px solid #808080;
   padding: 4px;
   outline: none;
 }
-.form-label {
-  margin-bottom: 4px;
-}
+
 body {
   background-color: bisque;
 }
