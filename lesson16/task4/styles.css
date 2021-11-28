@@ -31,14 +31,15 @@ input {
   border: 1px solid #808080;
   padding: 4px;
   outline: none;
+  padding-right: 118px;
 }
-label {
+.form-label {
   padding: 0px 0px;
   display: inline-block;
   margin: 0px 0px 4px 0px;
 }
 .form-control {
-  margin: 8px 0px;
+  margin: 0px 0px 8px;
 }
 button {
   height: 32px;
@@ -47,7 +48,6 @@ button {
   margin-top: 16px;
   border-radius: 4px;
   color: white;
-  border: none;
 }
 input:invalid {
   border: 3px solid #ff0000;
