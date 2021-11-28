@@ -6,8 +6,8 @@
 
 form {
   position: absolute;
-  top: 25%;
-  margin: auto 50vh;
+  top: calc(50% - 346.74px / 2);
+  left: calc(50% - 300px / 2);
   padding: 16px;
   width: 300px;
   background-color: aqua;
