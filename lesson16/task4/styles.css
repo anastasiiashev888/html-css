@@ -8,8 +8,9 @@ main {
   position: absolute;
 }
 form {
-  position: relative;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
   display: block;
   margin: 127px 50vh;
   padding: 16px;
@@ -20,7 +21,6 @@ form {
 .form-title {
   text-align: center;
   text-transform: uppercase;
-  padding-bottom: 4px;
 }
 .form-input {
   width: 100%;
