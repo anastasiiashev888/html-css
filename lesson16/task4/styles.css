@@ -27,6 +27,7 @@ input {
   height: 32px;
   border-radius: 4px;
   border: 1px solid #808080;
+  padding: 4px;
 }
 label {
   padding: 0px 0px;
@@ -43,4 +44,8 @@ button {
   margin-top: 16px;
   border-radius: 4px;
   color: white;
+  border: none;
+}
+input :focus {
+  border: red;
 }
