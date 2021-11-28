@@ -1,0 +1,12 @@
+form {
+  margin: 32px;
+}
+input,
+textarea,
+button,
+select {
+  margin: 8px;
+}
+* {
+  box-sizing: border-box;
+}
