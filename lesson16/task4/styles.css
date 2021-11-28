@@ -4,15 +4,10 @@
   font-size: 16px;
 }
 
-main {
-  position: absolute;
-}
 form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  display: block;
-  margin: 127px 50vh;
+  position: absolute;
+  top: 25%;
+  margin: auto 50vh;
   padding: 16px;
   width: 300px;
   background-color: aqua;
@@ -21,7 +16,6 @@ form {
 .form-title {
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 23px;
 }
 .form-input {
   width: 100%;
