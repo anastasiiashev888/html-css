@@ -30,7 +30,8 @@ thead {
 caption {
   margin-bottom: 8px;
 }
-table {
+td,
+th {
   height: 40px;
 }
 div {
