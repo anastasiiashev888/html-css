@@ -31,8 +31,8 @@ caption {
   margin-bottom: 8px;
 }
 td,
-th {
-  line-height: 40px;
+thead {
+  height: 40px;
 }
 div {
   overflow-x: auto;
