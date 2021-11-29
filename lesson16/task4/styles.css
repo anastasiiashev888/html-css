@@ -3,8 +3,10 @@
   font-family: monospace;
   font-size: 16px;
 }
+
 main {
   height: 100vh;
+  display: flex;
 }
 form {
   margin: auto;
