@@ -32,8 +32,11 @@ caption {
 }
 td,
 th {
-  line-height: 32px;
+  line-height: 40px;
 }
 div {
   overflow-x: auto;
+}
+tfoot {
+  font-weight: 700;
 }
