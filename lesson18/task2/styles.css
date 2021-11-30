@@ -1,0 +1,25 @@
+.img {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+}
+button {
+  width: 200px;
+  height: 50px;
+  margin: 64px;
+  border-radius: 4px;
+  background-color: coral;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+button:hover > .img {
+  fill: green;
+}
+button:hover {
+  color: darkcyan;
+}
