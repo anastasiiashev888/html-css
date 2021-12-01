@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin: 32px;
+  display: flex;
+  flex-direction: column;
+}
+div[class^='rect'] {
+  display: inline-block;
+  margin-bottom: 16px;
+  background-color: coral;
+  text-align: center;
+  opacity: 0.5;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  transition: width 2s, opacity 0.5s;
+}
+
+div:hover {
+  width: 100%;
+  opacity: 1;
+}
