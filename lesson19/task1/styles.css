@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .container {
-  margin: 16px;
+  margin: 32px;
 }
 div[class^='rect'] {
   margin-bottom: 16px;
@@ -18,6 +18,9 @@ div[class^='rect'] {
 div:hover {
   width: 100%;
   opacity: 1;
+}
+body {
+  width: 100vh;
 }
 
 div[class^='rect linear']:hover {
