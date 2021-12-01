@@ -15,26 +15,23 @@ div[class^='rect'] {
   transition: width 2s, opacity 0.5s;
 }
 
-div:hover {
+div[class^='rect']:hover {
   width: 100%;
   opacity: 1;
 }
-body {
-  width: 100vh;
-}
 
-div[class^='rect linear']:hover {
+.container:nth-child(2) {
   animation-timing-function: linear;
 }
-div[class^='rect ease']:hover {
+.container:nth-child(3) {
   animation-timing-function: ease;
 }
-div[class^='rect ease-in']:hover {
+.container:nth-child(4) {
   animation-timing-function: ease-in;
 }
-div[class^='rect ease-out']:hover {
+.container:nth-child(5) {
   animation-timing-function: ease-out;
 }
-div[class^='rect ease-in-out']:hover {
+.container:nth-child(6) {
   animation-timing-function: ease-in-out;
 }
