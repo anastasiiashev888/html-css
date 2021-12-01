@@ -2,12 +2,10 @@
   box-sizing: border-box;
 }
 .container {
-  display: flex;
   flex-direction: column;
-  margin-left: 32px;
+  margin: 32px;
 }
 div[class^='rect'] {
-  display: inline-block;
   margin-bottom: 16px;
   background-color: coral;
   text-align: center;
