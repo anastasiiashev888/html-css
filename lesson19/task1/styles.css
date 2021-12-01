@@ -2,8 +2,7 @@
   box-sizing: border-box;
 }
 .container {
-  flex-direction: column;
-  margin: 32px;
+  margin: 16px;
 }
 div[class^='rect'] {
   margin-bottom: 16px;
