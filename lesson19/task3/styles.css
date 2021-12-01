@@ -5,6 +5,8 @@
   text-transform: uppercase;
   animation: blinking 2s;
   animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
   position: relative;
 }
 .container {
