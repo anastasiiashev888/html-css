@@ -11,13 +11,27 @@ div[class^='rect'] {
   opacity: 0.5;
   height: 100px;
   width: 100px;
-  margin-left: 32px;
   line-height: 100px;
   transition: width 2s, opacity 0.5s;
-  animation-timing-function: inherit;
 }
 
 div:hover {
   width: 100%;
   opacity: 1;
+}
+
+div[class^='rect linear']:hover {
+  animation-timing-function: linear;
+}
+div[class^='rect ease']:hover {
+  animation-timing-function: ease;
+}
+div[class^='rect ease-in']:hover {
+  animation-timing-function: ease-in;
+}
+div[class^='rect ease-out']:hover {
+  animation-timing-function: ease-out;
+}
+div[class^='rect ease-in-out']:hover {
+  animation-timing-function: ease-in-out;
 }
