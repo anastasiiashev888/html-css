@@ -14,6 +14,7 @@
   margin: auto;
   animation: move 0.5s 0.4s, perev 0.5s, smesh 1s 2s;
 }
+
 body {
   display: flex;
   width: 100vw;
@@ -35,12 +36,9 @@ body {
   0% {
     transform: rotate(0);
   }
-  50% {
+  100% {
     transform: rotate(360deg);
     animation-timing-function: ease-in-out;
-  }
-  100% {
-    transform: rotate(0);
   }
 }
 @keyframes smesh {
