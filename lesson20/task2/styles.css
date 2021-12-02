@@ -12,7 +12,7 @@
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   margin: auto;
-  animation: move 0.5s 0.4s, perev 0.5s, smesh 1s 2s;
+  animation: move 0.5s 0.4s, perev 0.5s, smesh 1s 2s forwards;
 }
 
 body {
@@ -29,7 +29,6 @@ body {
   }
   100% {
     transform: translateY(0);
-    animation-timing-function: ease-in-out;
   }
 }
 @keyframes perev {
@@ -38,7 +37,6 @@ body {
   }
   100% {
     transform: rotate(360deg);
-    animation-timing-function: ease-in-out;
   }
 }
 @keyframes smesh {
@@ -47,6 +45,5 @@ body {
   }
   100% {
     transform: translateX(2000px);
-    animation-timing-function: ease;
   }
 }
