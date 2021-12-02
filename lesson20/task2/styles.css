@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+.fancy-button {
+  width: 150px;
+  height: 50px;
+  border-radius: 4px;
+  background-image: linear-gradient(45deg, yellow, red);
+  border: 0px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  animation: move 0.5s 0.4s, perev 0.5s, smesh 1s 2s;
+}
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+@keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0);
+    animation-timing-function: ease-in-out;
+  }
+}
+@keyframes perev {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(360deg);
+    animation-timing-function: ease-in-out;
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+@keyframes smesh {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(2000px);
+    animation-timing-function: ease;
+  }
+}
