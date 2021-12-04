@@ -31,9 +31,10 @@ body {
   text-align: center;
 }
 .section {
-  padding: 0.5em;
   width: 60vw;
   font-size: 1.25em;
+
+  margin: 0.5em;
 }
 .units-list {
   line-height: 1.75em;
@@ -85,4 +86,5 @@ body {
   padding: 0.5em;
   width: 20vw;
   margin: 0px;
+  padding-top: 0px;
 }
