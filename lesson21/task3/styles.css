@@ -31,6 +31,8 @@ body {
   text-align: center;
 }
 .section {
+  display: flex;
+  flex-direction: column;
   width: 60vw;
   font-size: 1.25em;
   margin-left: 0.6em;
@@ -85,6 +87,8 @@ body {
   text-decoration: none;
 }
 .news {
+  display: flex;
+  flex-direction: column;
   padding: 0.5em;
   width: 20vw;
   margin: 0px;
