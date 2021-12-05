@@ -35,8 +35,6 @@ body {
   flex-direction: column;
   width: 60vw;
   font-size: 1.25em;
-  margin-left: 0.6em;
-  margin-right: 0.5em;
 }
 .units-list {
   line-height: 1.75em;
