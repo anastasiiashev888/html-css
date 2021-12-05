@@ -49,12 +49,15 @@ body {
 }
 .navigation {
   display: flex;
+  width: 20vw;
+  margin-right: 0.5em;
 }
 .nav-list {
   display: flex;
   flex-direction: column;
   padding: 0px;
-  width: 20vw;
+  width: 100%;
+
   list-style-type: none;
   margin: 0.5em;
   margin-left: 0px;
