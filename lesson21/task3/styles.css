@@ -33,8 +33,6 @@ body {
 .section {
   width: 60vw;
   font-size: 1.25em;
-
-  margin: 0.5em;
 }
 .units-list {
   line-height: 1.75em;
@@ -60,6 +58,7 @@ body {
   list-style-type: none;
   margin: 0.5em;
   margin-left: 0px;
+
   padding-top: 0.5em;
   padding-right: 0.5em;
 }
