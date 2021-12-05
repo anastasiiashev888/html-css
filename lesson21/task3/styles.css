@@ -68,6 +68,9 @@ body {
   padding-top: 0.5em;
   padding-right: 0.5em;
 }
+p {
+  margin: 0px;
+}
 
 .nav-list-item {
   padding-left: 0.5em;
