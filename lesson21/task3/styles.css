@@ -33,7 +33,6 @@ body {
 .section {
   width: 60vw;
   font-size: 1.25em;
-  margin: 0.5em;
 }
 .units-list {
   line-height: 1.75em;
@@ -60,13 +59,12 @@ body {
   width: 100%;
 
   list-style-type: none;
-  margin: 0.5em;
-  margin-left: 0px;
-
-  padding-top: 0.5em;
-  padding-right: 0.5em;
 }
-
+.navigation,
+.news,
+.section {
+  margin: 0.5em;
+}
 .nav-list-item {
   padding-left: 0.5em;
 
@@ -75,7 +73,7 @@ body {
   color: white;
   height: 2em;
   line-height: 2em;
-  width: 100%;
+  width: calc(100% - 0.5em);
 
   overflow: hidden;
   white-space: nowrap;
@@ -86,8 +84,5 @@ body {
   text-decoration: none;
 }
 .news {
-  padding: 0.5em;
   width: 20vw;
-  margin: 0px;
-  padding-top: 0px;
 }
