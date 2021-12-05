@@ -35,7 +35,7 @@ body {
   flex-direction: column;
   width: 60vw;
   font-size: 1.25em;
-  margin-left: 0.5em;
+  padding-left: 1px;
 }
 .units-list {
   line-height: 1.75em;
@@ -63,7 +63,7 @@ body {
   list-style-type: none;
   margin-top: 0.5em;
   margin-left: 0px;
-
+  padding-right: 4px;
   padding-top: 0.5em;
   padding-right: 0.5em;
 }
@@ -73,7 +73,7 @@ p {
 
 .nav-list-item {
   padding-left: 0.5em;
-
+  margin-right: 2px;
   margin-bottom: 0.5em;
   background-color: #808080;
   color: white;
@@ -95,4 +95,5 @@ p {
   width: 20vw;
   margin: 0px;
   padding-top: 0px;
+  padding-left: 1px;
 }
