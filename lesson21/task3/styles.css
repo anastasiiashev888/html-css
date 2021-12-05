@@ -59,12 +59,13 @@ body {
   width: 100%;
 
   list-style-type: none;
-}
-.navigation,
-.news,
-.section {
   margin: 0.5em;
+  margin-left: 0px;
+
+  padding-top: 0.5em;
+  padding-right: 0.5em;
 }
+
 .nav-list-item {
   padding-left: 0.5em;
 
@@ -84,5 +85,8 @@ body {
   text-decoration: none;
 }
 .news {
+  padding: 0.5em;
   width: 20vw;
+  margin: 0px;
+  padding-top: 0px;
 }
