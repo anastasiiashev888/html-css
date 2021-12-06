@@ -61,7 +61,7 @@ footer {
 }
 .nav-list-item {
   padding-left: 0.5em;
-
+  padding-right: 0.5em;
   margin-bottom: 0.5em;
   background-color: #808080;
   color: white;
