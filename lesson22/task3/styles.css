@@ -3,6 +3,7 @@ main {
 }
 picture {
   margin: auto;
+  display: flex;
 }
 .img {
   max-height: 100%;
