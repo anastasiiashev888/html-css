@@ -7,5 +7,5 @@ picture {
 }
 .img {
   max-width: 100%;
-  flex-basis: 0;
+  object-fit: cover;
 }
