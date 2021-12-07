@@ -23,7 +23,7 @@
   margin: auto;
 }
 div[class^='box'] {
-  height: 200px;
+  min-height: 200px;
 }
 @media screen and (min-width: 600px) {
   .www {
