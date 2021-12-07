@@ -3,9 +3,6 @@ main {
 }
 picture {
   margin: auto;
-}
-.img {
   max-width: 100%;
-  height: auto;
-  overflow: hidden;
+  height: 100%;
 }
