@@ -3,7 +3,7 @@ main {
 }
 picture {
   margin: auto;
-  display: flex;
+  overflow: hidden;
 }
 .img {
   max-width: 100%;
