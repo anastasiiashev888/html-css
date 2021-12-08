@@ -16,7 +16,7 @@ i {
   font-size: 2em;
   padding: 0px;
   border: none;
-  margin: auto;
+  margin: auto 0px;
 }
 i:hover {
   cursor: pointer;
@@ -26,6 +26,7 @@ i:hover {
   padding: 0px;
   width: 20%;
   padding: 0.5em;
+  margin: 0px;
 }
 .nav-list-item {
   background-color: #808080;
@@ -49,7 +50,7 @@ i:hover {
   }
 }
 @media screen and (min-width: 600px) {
-  i[class^='fa fa-home fa-fw'] {
+  i[class^='fas fa-bars'] {
     display: none;
   }
 }
