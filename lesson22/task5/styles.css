@@ -100,6 +100,8 @@ img {
   }
   .main {
     display: flex;
+
+    flex-grow: 1;
   }
   .navigation {
     width: 20vw;
@@ -112,6 +114,9 @@ img {
   .news {
     width: 20vw;
     flex-grow: 1;
+  }
+  .footer {
+    margin-top: 38px;
   }
 }
 @media screen and (max-width: 600px) {
