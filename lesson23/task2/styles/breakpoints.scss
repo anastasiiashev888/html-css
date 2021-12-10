@@ -8,12 +8,12 @@ $ld: 1200px;
   }
 }
 @mixin for-device-large {
-  @media screen and (min-width: $md-1) {
+  @media screen and (min-width: $md) {
     @content;
   }
 }
 @mixin for-device-extra-large {
-  @media screen and (min-width: $ld-1) {
+  @media screen and (min-width: $ld) {
     @content;
   }
 }
