@@ -17,7 +17,7 @@
 .nav-list__item {
   padding: 8px;
   background-color: #ff7f50;
-  margin-left: 16px;
+  margin-left: 8px;
   border-radius: 4px;
 }
 .nav-list__item_selected {
