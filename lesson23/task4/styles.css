@@ -1,0 +1,53 @@
+.box1 {
+  background-color: #ff7f50;
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
+  min-height: 200px;
+}
+
+.box2 {
+  background-color: #006400;
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
+  min-height: 200px;
+}
+
+.box3 {
+  background-color: #0ff;
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
+  min-height: 200px;
+}
+
+.conteiner {
+  width: 100%;
+}
+
+span {
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+  margin: auto;
+}
+
+@media screen and (min-width: 600px) {
+  .www {
+    display: flex;
+    flex-grow: 2;
+    flex-basis: 0;
+  }
+}
+@media screen and (min-width: 900px) {
+  .conteiner {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
