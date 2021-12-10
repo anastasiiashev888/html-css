@@ -1,0 +1,32 @@
+@import 'breakpoints.scss';
+@import 'variables.scss';
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+  @include for-device-portrait {
+    flex-direction: column;
+  }
+}
+
+.square {
+  height: $default-size;
+  width: $default-size;
+  background-color: $color-sd;
+  margin: $unit;
+
+  @include for-device-medium {
+    background-color: $color-md;
+  }
+  @include for-device-large {
+    background-color: $color-ld;
+  }
+  @include for-device-extra-large {
+    background-color: $color-xd;
+  }
+}
