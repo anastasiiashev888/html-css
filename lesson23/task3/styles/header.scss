@@ -6,10 +6,10 @@ header {
   text-transform: uppercase;
   display: flex;
   cursor: pointer;
-  margin: 0px;
+  margin: 0px 3em;
+  padding: 0px;
 
   &__item {
-    margin-left: 3em 0px;
     padding: 0px 8px;
     list-style-type: none;
     line-height: 3em;
