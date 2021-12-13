@@ -1,81 +1,131 @@
 @import 'breakpoint';
 
 .order {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: auto 15px;
+  margin: auto;
   background: #f4f5f7;
-  @include for-device-large {
-    flex-direction: row;
-    padding: 70px 224px;
-  }
-  &__image {
-    width: 200px;
-    margin: 40px 60px;
-    @include for-device-large {
-      display: flex;
-      justify-content: center;
-      margin: 0px;
-      width: 100%;
-    }
-  }
-  &__form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    @include for-device-large {
-      flex-grow: 1;
-      align-items: flex-start;
-    }
 
-    &_heading {
-      letter-spacing: -0.25px;
-      text-align: center;
-      font-size: 40px;
-      line-height: 40px;
-      margin: 0px auto;
-      @include for-device-large {
-        margin: 0px;
-        padding-top: 33px;
-      }
+  @include for-device-large {
+    display: flex;
+    width: 1400px;
+    height: 441px;
+    margin: auto;
+  }
+  &_img {
+    height: 220px;
+    width: 200px;
+    @include for-device-large {
+      height: 296px;
+      width: 269px;
+      margin-top: 73px;
+      margin-left: 224px;
     }
-    &_text {
-      font-size: 22px;
-      line-height: 32px;
-      margin: 22px 15px;
-      @include for-device-large {
-        margin: 22px 0px;
-        width: 555px;
-      }
-    }
-    &_cta {
+  }
+  &__content {
+    display: block;
+    @include for-device-large {
       display: flex;
       flex-direction: column;
-      align-items: center;
-      @include for-device-large {
-        flex-direction: row;
-      }
-      &-input {
-        text-align: center;
-        width: 290px;
-        height: 48px;
-        margin: 18px 15px 12px;
-
-        @include for-device-large {
-          flex-direction: row;
-          height: 48px;
-          width: 385px;
-          border-radius: 2px;
-          margin: auto 10px;
-        }
-      }
+      margin-top: 106px;
+      margin-left: 122px;
     }
-    &_trial {
-      margin: 0 15px 50px;
-      font-size: 14px;
-      line-height: 22px;
-      color: #2b292d99;
+  }
+  &__h2 {
+    margin: 40px auto 0px auto;
+    height: 80px;
+    width: 290px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+
+    @include for-device-large {
+      margin: 0px;
+      width: 555px;
+      height: 48px;
+      text-align: left;
+    }
+  }
+  &__text {
+    height: 167px;
+    width: 290px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 18px auto 0px auto;
+    align-items: center;
+
+    @include for-device-large {
+      font-size: 22px;
+      height: 64px;
+      width: 555px;
+      margin: 12px 0px 0px;
+    }
+  }
+  &__form-email {
+    margin: 40px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    @include for-device-large {
+      margin: 26px 0px 0px;
+      flex-direction: row;
+    }
+  }
+  &__input-email {
+    margin: 0px auto;
+    height: 48px;
+    width: 290px;
+    border-radius: 2px;
+    padding: auto;
+    border: 1px solid #2b292d33;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2b292d;
+
+    @include for-device-large {
+      height: 48px;
+      width: 385px;
+      padding-left: 15px;
+      margin: 0px 10px 0px 0px;
+    }
+  }
+  &__button-email {
+    margin: 12px auto 0px auto;
+    height: 48px;
+    width: 290px;
+    border-radius: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.05) 0%,
+        rgba(255, 255, 255, 1e-5) 100%
+      ),
+      #3040c4;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+
+    @include for-device-large {
+      border: none;
+      margin: 0px;
+      height: 48px;
+      width: 160px;
+    }
+  }
+  &__form-terms {
+    height: 44px;
+    width: 290px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 10px auto 0px auto;
+
+    @include for-device-large {
+      margin: 10px 0px 0px;
+      height: 22px;
+      width: 495px;
+      left: 616px;
     }
   }
 }
