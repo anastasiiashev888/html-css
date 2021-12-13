@@ -131,18 +131,18 @@
   margin-right: 35px;
 }
 
-.hedline {
+.headline {
   display: block;
 }
 @media screen and (min-width: 1400px) {
-  .hedline {
+  .headline {
     display: flex;
   }
 }
-.hedline_box {
+.headline_box {
   z-index: 1;
 }
-.hedline__h1 {
+.headline__h1 {
   font-size: 50px;
   font-weight: 700;
   line-height: 50px;
@@ -151,7 +151,7 @@
   max-width: 754px;
 }
 @media screen and (min-width: 1400px) {
-  .hedline__h1 {
+  .headline__h1 {
     font-size: 80px;
     font-weight: 700;
     line-height: 78px;
@@ -160,7 +160,7 @@
     margin: 76px 0px 0px 126px;
   }
 }
-.hedline__text {
+.headline__text {
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
@@ -171,7 +171,7 @@
   margin: 24px 15px 0px 15px;
 }
 @media screen and (min-width: 1400px) {
-  .hedline__text {
+  .headline__text {
     height: 102px;
     width: 456px;
     margin-top: 34px;
@@ -182,13 +182,13 @@
     line-height: 34px;
   }
 }
-.hedline__image {
+.headline__image {
   min-height: 180px;
   min-width: 320px;
   margin: 33px 0px 0px 0px;
 }
 @media screen and (min-width: 1400px) {
-  .hedline__image {
+  .headline__image {
     position: absolute;
     height: 448px;
     width: 796px;
@@ -313,7 +313,6 @@
   max-height: 1808px;
   min-width: 320px;
   background: #edf8fb;
-  padding-top: 108px;
 }
 @media screen and (min-width: 1400px) {
   .audience {
@@ -454,6 +453,13 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  background-color: #ffffff;
+  background-blend-mode: overlay;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%);
+  background: white;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
 }
 @media screen and (min-width: 1400px) {
   .card__img {
@@ -470,7 +476,12 @@
   color: #ffffff;
 }
 .card__img:nth-child(4) {
-  margin-right: 0px;
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 1400px) {
+  .card__img:nth-child(4) {
+    margin-right: 0px;
+  }
 }
 .card__name {
   margin: 22px auto 0px;
@@ -494,6 +505,7 @@
 .order_img {
   height: 220px;
   width: 200px;
+  margin: 50px 60px 0px 60px;
 }
 @media screen and (min-width: 1400px) {
   .order_img {
@@ -501,6 +513,17 @@
     width: 269px;
     margin-top: 73px;
     margin-left: 224px;
+  }
+}
+.order_img__window {
+  height: 220px;
+  width: 200px;
+  margin: auto;
+}
+@media screen and (min-width: 1400px) {
+  .order_img__window {
+    height: 296px;
+    width: 269px;
   }
 }
 .order__content {
@@ -517,7 +540,6 @@
 .order__h2 {
   margin: 40px auto 0px auto;
   height: 80px;
-  width: 290px;
   font-size: 40px;
   font-weight: 700;
   line-height: 40px;
