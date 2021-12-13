@@ -1,0 +1,28 @@
+@import 'breakpoint';
+
+.about {
+  display: flex;
+  background-color: #f4f5f7;
+  @include for-device-large {
+  }
+}
+.article {
+  margin: 46px 15px 0px 15px;
+  @include for-device-large {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    margin: 62px 115px;
+  }
+
+  &__text {
+    font-size: 22px;
+    margin-top: 0px;
+    // width: 100%;
+    line-height: 32px;
+    @include for-device-large {
+      width: 555px;
+      margin: 15px;
+    }
+  }
+}

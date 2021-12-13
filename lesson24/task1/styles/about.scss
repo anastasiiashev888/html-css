@@ -1,0 +1,32 @@
+.question__box {
+  width: 1400px;
+  height: 255px;
+  margin: auto;
+  display: flex;
+}
+.question {
+  display: flex;
+  margin: auto;
+  &__what {
+    height: 102px;
+    width: 555px;
+    align-items: center;
+    justify-content: center;
+  }
+  &__who {
+    height: 102px;
+    width: 555px;
+    margin-left: 29px;
+  }
+  &__name {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 0px;
+  }
+  &__description {
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: 0px;
+  }
+}

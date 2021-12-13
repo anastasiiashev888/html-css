@@ -1,0 +1,58 @@
+@import 'breakpoint';
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  background: #f3c6bd;
+  padding-bottom: 30px;
+  @include for-device-large {
+    flex-direction: row;
+    margin-top: 84px;
+  }
+  &__wrapper {
+    @include for-device-large {
+      display: flex;
+      flex-grow: 1;
+      flex-shrink: 1;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding-bottom: 50px;
+    }
+  }
+  &__heading {
+    margin: 35px 15px 9px;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.3125px;
+    @include for-device-large {
+      position: absolute;
+      height: 165px;
+      width: 754px;
+      left: 148px;
+      top: 188px;
+
+      font-weight: bold;
+      font-size: 80px;
+      line-height: 78px;
+      letter-spacing: -0.5px;
+      color: #2b292d;
+      margin: 0px;
+    }
+  }
+  &__text {
+    margin: 15px;
+    font-size: 24px;
+    line-height: 34px;
+    @include for-device-large {
+      margin: 0px;
+      padding-bottom: 48px;
+      width: 456px;
+    }
+  }
+  &__image {
+    @include for-device-large {
+      flex-grow: 1;
+      flex-shrink: 0;
+    }
+  }
+}

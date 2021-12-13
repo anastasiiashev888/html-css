@@ -1,0 +1,170 @@
+@import 'breakpoint.scss';
+.ollheader {
+  background-color: #f3c6bd;
+  width: 1400px;
+  height: 710px;
+  padding-top: 39px;
+  position: relative;
+  margin: auto;
+}
+
+.header {
+  height: 62px;
+  width: 1140px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+
+  &__logo {
+    height: 60px;
+    width: 60px;
+    border-radius: 14px;
+  }
+  &_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #2b292d;
+    line-height: 25px;
+    margin-left: 15px;
+
+    &__name {
+      font-weight: 700;
+      font-size: 20px;
+    }
+    &__deskription {
+      font-weight: 400;
+      font-size: 18px;
+      opacity: 0.6;
+    }
+  }
+}
+.nav {
+  display: flex;
+  position: absolute;
+  right: 130px;
+
+  &_menu {
+    display: flex;
+    list-style-type: none;
+    width: 273px;
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+
+    &_item:nth-child(2) {
+      margin: auto;
+    }
+  }
+  &__button {
+    height: 48px;
+    width: 160px;
+    margin-left: 54px;
+
+    border-radius: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.05) 0%,
+        rgba(255, 255, 255, 1e-5) 100%
+      ),
+      #3040c4;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+  }
+}
+
+.nav_menu_item {
+  font-size: 18px;
+
+  &__bold {
+    font-weight: 700;
+  }
+  &__arrow {
+    width: 8px;
+    height: 5px;
+    margin-left: 11px;
+  }
+}
+.hedline {
+  display: flex;
+
+  &_box {
+    z-index: 1;
+  }
+  &__h1 {
+    margin-top: 76px;
+    margin-left: 126px;
+    margin-bottom: 0px;
+    height: 165px;
+    width: 754px;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 78px;
+  }
+  &__text {
+    height: 102px;
+    width: 456px;
+    margin-top: 34px;
+    margin-left: 130px;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+  }
+  &__image {
+    position: absolute;
+    height: 448px;
+    width: 796px;
+    right: 25px;
+    top: 185px;
+  }
+}
+
+.button {
+  margin-top: 58px;
+  margin-left: 130px;
+
+  &__start {
+    border: none;
+    margin: 0px;
+    height: 48px;
+    width: 160px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    border-radius: 2px;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.05) 0%,
+        rgba(255, 255, 255, 1e-5) 100%
+      ),
+      #3040c4;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  }
+  &__learn {
+    border: none;
+    margin-left: 10px;
+    height: 48px;
+    width: 158px;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 13px;
+    border-radius: 2px;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.05) 0%,
+        rgba(255, 255, 255, 1e-5) 100%
+      ),
+      #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  }
+}

@@ -1,0 +1,112 @@
+@import 'breakpoint';
+
+.header {
+  display: flex;
+
+  &__logo {
+    margin: 8px 13px 0px 15px;
+    border-radius: 8px;
+  }
+  &__content {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    &-heading {
+      margin: 0px;
+    }
+    &_text {
+      flex-grow: 2;
+      display: none;
+      margin: 0px;
+    }
+  }
+}
+
+.nav {
+  display: flex;
+  flex-grow: 1;
+  &__menu {
+    margin: auto;
+    @include for-device-large {
+      display: none;
+    }
+  }
+
+  &__list {
+    margin-top: 28px;
+
+    @include for-device-large {
+      flex-grow: 1;
+      display: flex;
+      font-size: 18px;
+      line-height: 25px;
+      text-align: right;
+
+      margin: auto;
+      height: 25px;
+    }
+
+    &_item {
+      display: none;
+      @include for-device-large {
+        display: block;
+        padding-left: 35px;
+        height: 25px;
+        &:hover {
+          cursor: pointer;
+          font-weight: 700;
+        }
+      }
+    }
+    &_arrow {
+      display: none;
+      @include for-device-large {
+        display: flex;
+        cursor: pointer;
+        margin-left: 11px;
+        align-items: center;
+        height: 25px;
+      }
+    }
+  }
+
+  &__button {
+    display: none;
+
+    @include for-device-large {
+      display: flex;
+      flex-grow: 1;
+      margin: auto;
+      padding-left: 56px;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 13px;
+    }
+
+    &_header {
+      height: 48px;
+      width: 160px;
+      color: #fff;
+      background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.05) 0%,
+          rgba(255, 255, 255, 1e-5) 100%
+        ),
+        #3040c4;
+      background-blend-mode: overlay, normal;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1),
+        0px 4px 6px rgba(0, 0, 0, 0.05),
+        inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+      border-radius: 2px;
+    }
+  }
+}
+.allheader {
+  @include for-device-large {
+    min-width: 1400px;
+    min-height: 710px;
+    padding: 40px 25px 77px 130px;
+    background-color: #f3c6bd;
+  }
+}
