@@ -484,7 +484,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-@media screen and (min-width: 1400px) {
+@media screen and (max-width: 1400px) {
   body {
     flex-wrap: wrap;
   }
