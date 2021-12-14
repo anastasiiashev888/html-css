@@ -448,6 +448,7 @@
     margin: 0px;
     height: 48px;
     width: 158px;
+    margin-left: 10px;
   }
 }
 
@@ -471,6 +472,7 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  margin-top: 0px;
   background-color: #ffffff;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
   background-blend-mode: overlay, normal;
