@@ -79,10 +79,7 @@
 @media screen and (min-width: 1400px) {
   .nav {
     display: flex;
-    position: absolute;
-    right: 130px;
     align-items: center;
-    top: 7px;
     margin-right: 84px;
   }
 }
@@ -95,6 +92,7 @@
   padding: 0px;
   align-items: center;
   color: #2b292d;
+  margin-left: 335px;
 }
 .nav_menu_item:nth-child(2) {
   margin: auto;
@@ -109,7 +107,6 @@
     width: 160px;
     margin-left: 54px;
     position: absolute;
-    top: 0px;
     right: 0px;
     border-radius: none;
     color: #ffffff;

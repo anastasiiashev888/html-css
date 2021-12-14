@@ -71,8 +71,7 @@
   display: none;
   @include for-device-large {
     display: flex;
-    align-items: center;
-    margin-left: 84px;
+
     align-items: center;
     margin-right: 84px;
   }
