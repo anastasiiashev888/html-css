@@ -71,11 +71,9 @@
   display: none;
   @include for-device-large {
     display: flex;
-    position: absolute;
-    right: 130px;
-
     align-items: center;
-    top: 7px;
+    margin-left: 84px;
+    align-items: center;
     margin-right: 84px;
   }
   &_menu {
@@ -87,6 +85,7 @@
     padding: 0px;
     align-items: center;
     color: #2b292d;
+    margin-left: 335px;
     &_item:nth-child(2) {
       margin: auto;
     }
@@ -99,7 +98,6 @@
       width: 160px;
       margin-left: 54px;
       position: absolute;
-      top: 0px;
       right: 0px;
       border-radius: none;
       color: #ffffff;
