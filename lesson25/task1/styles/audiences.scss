@@ -11,7 +11,7 @@
     margin: auto;
   }
   &__content {
-    padding-top: 49px;
+    padding-top: 50px;
     @include for-device-large {
       padding-top: 108px;
     }
@@ -103,6 +103,7 @@
     line-height: 13px;
     border-radius: 2px;
     background-color: #ffffff;
+    margin-bottom: 15px;
 
     @include for-device-large {
       border: none;
