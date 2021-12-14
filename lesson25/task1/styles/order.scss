@@ -9,6 +9,8 @@
     width: 1400px;
     height: 441px;
     margin: auto;
+    align-items: center;
+    justify-content: center;
   }
   &_img {
     height: 220px;
@@ -17,9 +19,9 @@
     @include for-device-large {
       height: 296px;
       width: 269px;
-      margin-top: 73px;
-      margin-left: 224px;
       margin-right: 0px;
+      margin-top: 0px;
+      margin-left: 0px;
     }
     &__window {
       height: 220px;
@@ -36,7 +38,6 @@
     @include for-device-large {
       display: flex;
       flex-direction: column;
-      margin-top: 106px;
       margin-left: 122px;
     }
   }

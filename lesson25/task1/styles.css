@@ -539,6 +539,8 @@
     width: 1400px;
     height: 441px;
     margin: auto;
+    align-items: center;
+    justify-content: center;
   }
 }
 .order_img {
@@ -550,9 +552,9 @@
   .order_img {
     height: 296px;
     width: 269px;
-    margin-top: 73px;
-    margin-left: 224px;
     margin-right: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
   }
 }
 .order_img__window {
@@ -573,7 +575,6 @@
   .order__content {
     display: flex;
     flex-direction: column;
-    margin-top: 106px;
     margin-left: 122px;
   }
 }
