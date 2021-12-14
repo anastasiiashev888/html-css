@@ -19,6 +19,9 @@
     height: 60px;
     width: 60px;
     border-radius: 14px;
+    &__img {
+      height: 100%;
+    }
   }
   &_text {
     display: flex;
@@ -52,6 +55,7 @@
     margin: 0px;
     padding: 0px;
     align-items: center;
+    top: 0px;
 
     &_item:nth-child(2) {
       margin: auto;

@@ -19,6 +19,9 @@
   width: 60px;
   border-radius: 14px;
 }
+.header__logo__img {
+  height: 100%;
+}
 .header_text {
   display: flex;
   flex-direction: column;
@@ -50,6 +53,7 @@
   margin: 0px;
   padding: 0px;
   align-items: center;
+  top: 0px;
 }
 .nav_menu_item:nth-child(2) {
   margin: auto;

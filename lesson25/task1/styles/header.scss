@@ -63,6 +63,9 @@
   }
 }
 //logo menu
+.header__logo__img {
+  height: 100%;
+}
 .nav {
   display: none;
   @include for-device-large {
@@ -71,6 +74,7 @@
     right: 130px;
     right: 0px;
     align-items: center;
+    top: 0px;
 
     &_menu {
       display: flex;

@@ -68,6 +68,10 @@
   }
 }
 
+.header__logo__img {
+  height: 100%;
+}
+
 .nav {
   display: none;
 }
@@ -78,6 +82,7 @@
     right: 130px;
     right: 0px;
     align-items: center;
+    top: 0px;
   }
   .nav_menu {
     display: flex;
