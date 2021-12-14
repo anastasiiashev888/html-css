@@ -35,8 +35,9 @@
       height: 60px;
       width: 60px;
       border-radius: 14px;
-      margin: 0px;
+      margin-bottom: 0px;
       margin-right: 15px;
+      margin-top: 0px;
     }
   }
   //logo text
@@ -92,20 +93,23 @@
   }
   &__button {
     display: none;
-    height: 48px;
-    width: 160px;
-    margin-left: 54px;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    border-radius: none;
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 700;
-    background-color: #3040c4;
-    border: 0px;
+    @include for-device-large {
+      display: block;
+      height: 48px;
+      width: 160px;
+      margin-left: 54px;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      border-radius: none;
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 700;
+      background-color: #3040c4;
+      border: 0px;
 
-    border-radius: 2px;
+      border-radius: 2px;
+    }
   }
 }
 .nav_menu_item {
@@ -154,7 +158,7 @@
     display: flex;
     margin-left: 130px;
     width: 1249px;
-    height: 456px;
+    height: 533px;
     margin-top: 76px;
   }
   &_box {
