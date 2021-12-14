@@ -586,6 +586,7 @@
     width: 555px;
     height: 48px;
     text-align: left;
+    letter-spacing: -0.25px;
   }
 }
 .order__text {
@@ -603,6 +604,8 @@
     height: 64px;
     width: 555px;
     margin: 12px 0px 0px;
+    line-height: 32px;
+    color: #2b292d;
   }
 }
 .order__form-email {
@@ -634,6 +637,7 @@
     width: 385px;
     padding-left: 15px;
     margin: 0px 10px 0px 0px;
+    text-align: center;
   }
 }
 .order__button-email {
@@ -671,6 +675,8 @@
     margin: 10px 0px 0px;
     height: 22px;
     left: 616px;
+    width: 100%;
+    color: rgba(43, 41, 45, 0.6);
   }
 }
 
@@ -916,6 +922,14 @@ ul {
 
 * {
   box-sizing: border-box;
+}
+
+div[input~=placeholder] {
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
 }
 
 ul,

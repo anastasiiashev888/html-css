@@ -53,6 +53,7 @@
       width: 555px;
       height: 48px;
       text-align: left;
+      letter-spacing: -0.25px;
     }
   }
   &__text {
@@ -69,6 +70,8 @@
       height: 64px;
       width: 555px;
       margin: 12px 0px 0px;
+      line-height: 32px;
+      color: #2b292d;
     }
   }
   &__form-email {
@@ -97,6 +100,7 @@
       width: 385px;
       padding-left: 15px;
       margin: 0px 10px 0px 0px;
+      text-align: center;
     }
   }
   &__button-email {
@@ -138,6 +142,8 @@
       margin: 10px 0px 0px;
       height: 22px;
       left: 616px;
+      width: 100%;
+      color: rgba(43, 41, 45, 0.6);
     }
   }
 }
