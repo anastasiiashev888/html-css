@@ -342,7 +342,7 @@
   }
 }
 .audience__content {
-  padding-top: 50px;
+  padding-top: 51px;
 }
 @media screen and (min-width: 1400px) {
   .audience__content {
@@ -353,6 +353,7 @@
   font-size: 22px;
   font-weight: 700;
   text-align: center;
+  margin: 0px 0px 0px 0px;
 }
 @media screen and (min-width: 1400px) {
   .audience__visitors {

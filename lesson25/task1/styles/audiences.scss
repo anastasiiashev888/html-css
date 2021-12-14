@@ -11,7 +11,7 @@
     margin: auto;
   }
   &__content {
-    padding-top: 50px;
+    padding-top: 51px;
     @include for-device-large {
       padding-top: 108px;
     }
@@ -20,7 +20,7 @@
     font-size: 22px;
     font-weight: 700;
     text-align: center;
-
+    margin: 0px 0px 0px 0px;
     @include for-device-large {
       font-size: 22px;
       font-weight: 700;
