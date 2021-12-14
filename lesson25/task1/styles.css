@@ -80,9 +80,9 @@
     display: flex;
     position: absolute;
     right: 130px;
-    right: 0px;
     align-items: center;
-    top: 0px;
+    top: 7px;
+    margin-right: 84px;
   }
   .nav_menu {
     display: flex;
@@ -101,6 +101,9 @@
     height: 48px;
     width: 160px;
     margin-left: 54px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
     border-radius: none;
     color: #ffffff;
     font-size: 18px;
