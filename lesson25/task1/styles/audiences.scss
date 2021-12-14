@@ -118,6 +118,7 @@
   align-items: center;
   @include for-device-large {
     display: flex;
+    margin-top: 111px;
   }
 
   &__img {

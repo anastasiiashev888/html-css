@@ -458,6 +458,7 @@
 @media screen and (min-width: 1400px) {
   .card {
     display: flex;
+    margin-top: 111px;
   }
 }
 .card__img {
