@@ -31,6 +31,7 @@
     }
   }
   &__h2 {
+    letter-spacing: -0.36px;
     font-size: 40px;
     font-weight: 700;
     line-height: 40px;
@@ -38,7 +39,6 @@
     min-height: 80px;
     min-width: 290px;
     margin: 17px 15px 0px 15px;
-    letter-spacing: -0.5px;
     @include for-device-large {
       height: 112px;
       width: 555px;
@@ -131,7 +131,8 @@
     height: 300px;
     width: 290px;
     margin: 0px auto 15px auto;
-    justify-content: center;
+    padding-top: 22px;
+    padding-bottom: 33px;
     align-items: center;
     cursor: pointer;
     margin-top: 0px;
