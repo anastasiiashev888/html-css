@@ -1,22 +1,37 @@
-@import 'header.scss';
-@import 'about.scss';
-@import 'audience.scss';
-@import 'order.scss';
-@import 'footerr.scss';
-@import 'breakpoint.scss';
-body {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  @include for-device-large {
-    flex-wrap: wrap;
-  }
+* {
+  box-sizing: border-box;
 }
+
 html {
-  font-family: 'Work Sans', sans-ser;
+  font-family: Montserrat, Geneva, Tahoma, sans-serif;
+  background-color: #000;
 }
-main {
+
+body {
   display: flex;
-  flex-direction: column;
-  height: 100%;
+  width: 1440px;
+  margin: 132px 115px;
 }
+span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #ffffff;
+}
+img {
+  padding: 0px 22px;
+}
+button.backgr-blue,
+p.backgr-blue {
+  background-color: #3a6ba5;
+}
+button.backgr-orange,
+p.backgr-orange {
+  background-color: #ec632a;
+}
+
+@import './tables.scss';
