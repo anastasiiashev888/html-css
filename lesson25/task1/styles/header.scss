@@ -144,6 +144,10 @@
   display: block;
   @include for-device-large {
     display: flex;
+    margin-left: 130px;
+    width: 1249px;
+    height: 456px;
+    margin-top: 76px;
   }
   &_box {
     z-index: 1;
@@ -163,7 +167,7 @@
       line-height: 78px;
       width: 754px;
       height: 165px;
-      margin: 76px 0px 0px 126px;
+      margin: 0px;
     }
   }
   &__text {
@@ -180,7 +184,7 @@
       height: 102px;
       width: 456px;
       margin-top: 34px;
-      margin-left: 130px;
+      margin-left: 0px;
       font-family: Work Sans;
       font-size: 24px;
       font-weight: 400;
@@ -208,7 +212,7 @@
   @include for-device-large {
     flex-direction: row;
     align-items: center;
-    margin: 58px 0px 0px 130px;
+    margin: 58px 0px 0px 0px;
   }
   margin-top: 30px;
   &__start {

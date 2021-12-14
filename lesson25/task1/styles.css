@@ -151,6 +151,10 @@
 @media screen and (min-width: 1400px) {
   .headline {
     display: flex;
+    margin-left: 130px;
+    width: 1249px;
+    height: 456px;
+    margin-top: 76px;
   }
 }
 .headline_box {
@@ -173,7 +177,7 @@
     line-height: 78px;
     width: 754px;
     height: 165px;
-    margin: 76px 0px 0px 126px;
+    margin: 0px;
   }
 }
 .headline__text {
@@ -192,7 +196,7 @@
     height: 102px;
     width: 456px;
     margin-top: 34px;
-    margin-left: 130px;
+    margin-left: 0px;
     font-family: Work Sans;
     font-size: 24px;
     font-weight: 400;
@@ -223,7 +227,7 @@
   .button {
     flex-direction: row;
     align-items: center;
-    margin: 58px 0px 0px 130px;
+    margin: 58px 0px 0px 0px;
   }
 }
 .button__start {
