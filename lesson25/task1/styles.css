@@ -61,6 +61,10 @@
   .header_text__name__deskription {
     display: inline-block;
     color: #2b292d;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #2b292d99;
   }
 }
 
