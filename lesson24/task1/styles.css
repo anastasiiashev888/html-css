@@ -4,6 +4,7 @@
   border: none;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 .price-card__popular {
   display: flex;
@@ -15,8 +16,8 @@
   border-bottom: 25px solid #dc3f45;
   border-right: 25px solid transparent;
   transform: rotate(45deg);
-  right: 360px;
-  top: 43px;
+  right: -39px;
+  top: 9px;
   font-size: 14px;
   font-weight: 700;
   line-height: 17px;
@@ -40,9 +41,15 @@
 }
 .price-card__price__blue {
   background: #3a6ba5;
+  height: 105px;
+  width: 380px;
+  border: none;
 }
 .price-card__price__orang {
   background: #ec632a;
+  height: 105px;
+  width: 380px;
+  border: none;
 }
 .price-card__num {
   font-size: 55px;
@@ -99,15 +106,9 @@
 }
 .price-card__button__blue {
   background: #3a6ba5;
-  height: 105px;
-  width: 380px;
-  border: none;
 }
 .price-card__button__orang {
   background: #ec632a;
-  height: 105px;
-  width: 380px;
-  border: none;
 }
 
 body {

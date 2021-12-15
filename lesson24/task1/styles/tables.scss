@@ -4,6 +4,7 @@
   border: none;
   display: flex;
   flex-direction: column;
+  position: relative;
   &__popular {
     display: flex;
     position: absolute;
@@ -14,8 +15,8 @@
     border-bottom: 25px solid #dc3f45;
     border-right: 25px solid transparent;
     transform: rotate(45deg);
-    right: 360px;
-    top: 43px;
+    right: -39px;
+    top: 9px;
     &::after {
       content: 'POPULAR';
       display: flex;
@@ -41,9 +42,15 @@
     border: none;
     &__blue {
       background: #3a6ba5;
+      height: 105px;
+      width: 380px;
+      border: none;
     }
     &__orang {
       background: #ec632a;
+      height: 105px;
+      width: 380px;
+      border: none;
     }
   }
   &__num {
@@ -102,15 +109,9 @@
     }
     &__blue {
       background: #3a6ba5;
-      height: 105px;
-      width: 380px;
-      border: none;
     }
     &__orang {
       background: #ec632a;
-      height: 105px;
-      width: 380px;
-      border: none;
     }
   }
 }
