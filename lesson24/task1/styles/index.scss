@@ -1,37 +1,54 @@
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Montserrat, Geneva, Tahoma, sans-serif;
-  background-color: #000;
-}
+@import './tables.scss';
 
 body {
   display: flex;
   width: 1440px;
-  margin: 132px 115px;
-}
-span {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
+  justify-content: center;
+  height: 1000px;
 
+  background: #141b1c;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+h1 {
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 700;
+  margin: 0px;
   color: #ffffff;
 }
-img {
-  padding: 0px 22px;
+p,
+div {
+  color: #ffffff;
 }
-button.backgr-blue,
-p.backgr-blue {
-  background-color: #3a6ba5;
+.price-card__website {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0px;
+  color: #ffffff;
 }
-button.backgr-orange,
-p.backgr-orange {
-  background-color: #ec632a;
-}
+.price {
+  background: #334247;
+  height: 770px;
+  width: 380px;
+  margin: auto 0px;
+  border: none;
 
-@import './tables.scss';
+  &_two {
+    position: relative;
+  }
+  &:nth-child(2) {
+    margin-left: 18px;
+  }
+  &:nth-child(3) {
+    margin-left: 18px;
+  }
+}
