@@ -14,8 +14,8 @@
     border-bottom: 25px solid #dc3f45;
     border-right: 25px solid transparent;
     transform: rotate(45deg);
-    right: 337px;
-    top: 124px;
+    right: 408px;
+    top: 43px;
     &::after {
       content: 'POPULAR';
       display: flex;
@@ -35,7 +35,7 @@
     margin: 33px auto;
     text-align: center;
   }
-  &__numbers {
+  &__price {
     background: #5bb189;
     display: flex;
     border: none;
@@ -67,7 +67,7 @@
     margin: 40px auto;
   }
   //check mark
-  &__options {
+  &__options_list {
     display: flex;
     flex-direction: column;
   }
@@ -75,14 +75,14 @@
     margin-right: 22px;
     margin-left: 22px;
   }
-  &__options_list {
+  &__options_list_item {
     padding: 16px 0px;
     font-size: 15px;
     font-weight: 300;
     line-height: 18px;
     letter-spacing: 0px;
   }
-  &__options_list:nth-child(odd) {
+  &__options_list_item:nth-child(odd) {
     background: #2a3438;
   }
   &__button {

@@ -15,8 +15,8 @@
   border-bottom: 25px solid #dc3f45;
   border-right: 25px solid transparent;
   transform: rotate(45deg);
-  right: 337px;
-  top: 124px;
+  right: 408px;
+  top: 43px;
   font-size: 14px;
   font-weight: 700;
   line-height: 17px;
@@ -33,15 +33,15 @@
   margin: 33px auto;
   text-align: center;
 }
-.price-card__numbers {
+.price-card__price {
   background: #5bb189;
   display: flex;
   border: none;
 }
-.price-card__numbers__blue {
+.price-card__price__blue {
   background: #3a6ba5;
 }
-.price-card__numbers__orang {
+.price-card__price__orang {
   background: #ec632a;
 }
 .price-card__num {
@@ -63,7 +63,7 @@
   text-align: center;
   margin: 40px auto;
 }
-.price-card__options {
+.price-card__options_list {
   display: flex;
   flex-direction: column;
 }
@@ -71,14 +71,14 @@
   margin-right: 22px;
   margin-left: 22px;
 }
-.price-card__options_list {
+.price-card__options_list_item {
   padding: 16px 0px;
   font-size: 15px;
   font-weight: 300;
   line-height: 18px;
   letter-spacing: 0px;
 }
-.price-card__options_list:nth-child(odd) {
+.price-card__options_list_item:nth-child(odd) {
   background: #2a3438;
 }
 .price-card__button {
