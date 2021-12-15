@@ -4,7 +4,7 @@ body {
   display: flex;
   width: 1440px;
   justify-content: center;
-  height: 1000px;
+  height: 100vh;
 
   background: #141b1c;
 }
@@ -35,10 +35,8 @@ div {
   margin: 0px;
   color: #ffffff;
 }
-.price {
+.price-card {
   background: #334247;
-  height: 770px;
-  width: 380px;
   margin: auto 0px;
   border: none;
 

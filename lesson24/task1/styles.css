@@ -15,8 +15,8 @@
   border-bottom: 25px solid #dc3f45;
   border-right: 25px solid transparent;
   transform: rotate(45deg);
-  right: -40px;
-  top: 9px;
+  right: 337px;
+  top: 124px;
   font-size: 14px;
   font-weight: 700;
   line-height: 17px;
@@ -108,7 +108,7 @@ body {
   display: flex;
   width: 1440px;
   justify-content: center;
-  height: 1000px;
+  height: 100vh;
   background: #141b1c;
 }
 
@@ -142,20 +142,18 @@ div {
   color: #ffffff;
 }
 
-.price {
+.price-card {
   background: #334247;
-  height: 770px;
-  width: 380px;
   margin: auto 0px;
   border: none;
 }
-.price_two {
+.price-card_two {
   position: relative;
 }
-.price:nth-child(2) {
+.price-card:nth-child(2) {
   margin-left: 18px;
 }
-.price:nth-child(3) {
+.price-card:nth-child(3) {
   margin-left: 18px;
 }
 
