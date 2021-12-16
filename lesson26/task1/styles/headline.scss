@@ -1,0 +1,51 @@
+.headline {
+  height: 552px;
+  width: 1120px;
+  display: flex;
+  flex-direction: column;
+  margin: 150px auto 0px;
+  position: relative;
+  &__h1 {
+    height: 120px;
+    width: 600px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #11223f;
+    margin: 0px;
+    z-index: 1;
+  }
+  &__deckription {
+    height: 80px;
+    width: 600px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #11223f;
+    margin: 20px 0px 0px;
+    z-index: 1;
+  }
+  &__button {
+    height: 50px;
+    width: 300px;
+    border: none;
+    background: #1968fc;
+    box-shadow: 0px 10px 40px 0px #1968fc4d;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #ffffff;
+    margin: 40px 0px 0px;
+  }
+  &__img {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+  }
+}
