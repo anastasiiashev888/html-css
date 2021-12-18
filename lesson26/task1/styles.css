@@ -88,7 +88,7 @@
   margin: 80px auto 0px;
   display: flex;
   font-size: 40px;
-  font-weight: 600;
+  font-weight: bold;
   line-height: 60px;
   letter-spacing: 1px;
   text-align: left;
@@ -121,7 +121,7 @@
     z-index: 1;
   }
 }
-.headline__button {
+.headline__button_mob {
   position: absolute;
   height: 50px;
   width: 300px;
@@ -136,12 +136,33 @@
   letter-spacing: 0px;
   text-align: center;
   color: #ffffff;
+  text-transform: uppercase;
 }
 @media screen and (min-width: 1024px) {
-  .headline__button {
+  .headline__button_mob {
+    display: none;
+  }
+}
+.headline__button_pk {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .headline__button_pk {
+    text-transform: uppercase;
+    display: block;
     position: initial;
     height: 50px;
     width: 300px;
+    left: 80px;
+    border: none;
+    background: #1968fc;
+    box-shadow: 0px 10px 40px 0px #1968fc4d;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #ffffff;
     margin: 40px 0px 0px;
   }
 }
@@ -710,6 +731,7 @@
   width: 250px;
   position: relative;
   margin-top: 40px;
+  box-shadow: 0px 20px 60px 0px #3145f41a;
 }
 .users__card__box_one {
   margin-right: 20px;
@@ -980,7 +1002,7 @@
   .consultation__card__h2 {
     margin: 80px 160px 0px 160px;
     height: 60px;
-    width: 1120px;
+    width: 645px;
   }
 }
 .consultation__card__br-h2 {
@@ -988,7 +1010,6 @@
   width: 80px;
   border-radius: 0px;
   background: #ffffff;
-  box-shadow: 0px 2px 0px 0px #d1e1fe;
   margin-top: 10px;
   margin-bottom: 38px;
 }
@@ -1008,12 +1029,12 @@
   letter-spacing: 0px;
   text-align: left;
   color: #ffffff;
-  margin: 38px 0px 0px 60px;
+  margin: 50px 0px 0px 60px;
 }
 @media screen and (min-width: 1024px) {
   .consultation__card__deckription {
     height: 80px;
-    width: 640px;
+    width: 629px;
     margin: 60px 0px 0px 160px;
   }
 }
@@ -1027,7 +1048,6 @@
   text-align: center;
   color: #1968fc;
   background: #ffffff;
-  box-shadow: 4px 4px 20px 0px #ffffff66;
   margin: 40px 0px 0px 60px;
   border: 0px;
   text-transform: uppercase;
