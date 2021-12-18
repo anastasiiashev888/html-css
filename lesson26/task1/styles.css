@@ -102,7 +102,7 @@
     z-index: 1;
   }
 }
-.headline__deckription {
+.headline__description {
   height: 80px;
   width: 480px;
   margin: 20px auto 0px;
@@ -114,7 +114,7 @@
   color: #11223f;
 }
 @media screen and (min-width: 1024px) {
-  .headline__deckription {
+  .headline__description {
     height: 80px;
     width: 600px;
     margin: 20px 0px 0px;
@@ -1180,7 +1180,7 @@
   align-items: center;
 }
 
-.footer {
+.page-footer {
   height: 130px;
   width: 640px;
   display: flex;
@@ -1189,23 +1189,23 @@
   margin-top: 61px;
 }
 @media screen and (min-width: 1024px) {
-  .footer {
+  .page-footer {
     height: 130px;
     width: 1440px;
     margin-top: 120px;
   }
 }
-.footer__img-logo {
+.page-footer__img-logo {
   height: 50px;
   width: 50px;
   margin: 40px 0px 0px 40px;
 }
 @media screen and (min-width: 1024px) {
-  .footer__img-logo {
+  .page-footer__img-logo {
     margin-left: 160px;
   }
 }
-.footer__logo-text {
+.page-footer__logo-text {
   height: 50px;
   width: 200px;
   font-size: 14px;
@@ -1219,52 +1219,52 @@
   justify-content: center;
   display: flex;
 }
-.footer_social-box_fecebook {
+.page-footer_social-box_fecebook {
   height: 20px;
   width: 10px;
   margin-right: 3px;
 }
-.footer_social-box_instagram {
+.page-footer_social-box_instagram {
   height: 20px;
   width: 20px;
 }
-.footer_social-border {
+.page-footer_social-border {
   height: 50px;
   width: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.footer_social-box {
+.page-footer_social-box {
   display: flex;
-  margin: 40px 0px 0px 50px;
+  margin: 0px 0px 0px 50px;
 }
 @media screen and (min-width: 1024px) {
-  .footer_social-box {
+  .page-footer_social-box {
     margin: 0px;
     margin-left: 50px;
   }
 }
-.footer__box {
+.page-footer__box {
   display: flex;
 }
-.footer__menu-list {
+.page-footer__menu-list {
   display: none;
 }
 @media screen and (min-width: 1024px) {
-  .footer__menu-list {
+  .page-footer__menu-list {
     display: flex;
     margin-left: 70px;
   }
 }
-.footer__menu-list_item {
+.page-footer__menu-list_item {
   height: 50px;
   width: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.footer__img-men {
+.page-footer__img-men {
   height: 60px;
   width: 55px;
   position: absolute;
@@ -1272,16 +1272,20 @@
   right: 40px;
 }
 @media screen and (min-width: 1024px) {
-  .footer__img-men {
+  .page-footer__img-men {
     height: 100px;
     width: 90px;
     margin: 30px 60px 0px 80px;
     position: inherit;
   }
 }
-.footer__menu {
+.page-footer__menu {
   display: flex;
   align-items: center;
+}
+
+.footer-logo {
+  display: flex;
 }
 
 html {

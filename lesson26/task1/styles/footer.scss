@@ -1,4 +1,4 @@
-.footer {
+.page-footer {
   height: 130px;
   width: 640px;
   display: flex;
@@ -51,7 +51,7 @@
   }
   &_social-box {
     display: flex;
-    margin: 40px 0px 0px 50px;
+    margin: 0px 0px 0px 50px;
     @include breakpoint {
       margin: 0px;
       margin-left: 50px;
@@ -91,4 +91,7 @@
     display: flex;
     align-items: center;
   }
+}
+.footer-logo {
+  display: flex;
 }
