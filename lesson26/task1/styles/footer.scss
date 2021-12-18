@@ -1,0 +1,94 @@
+.footer {
+  height: 130px;
+  width: 640px;
+  display: flex;
+  margin-bottom: 90px;
+  position: relative;
+  margin-top: 61px;
+  @include breakpoint {
+    height: 130px;
+    width: 1440px;
+    margin-top: 120px;
+  }
+
+  &__img-logo {
+    height: 50px;
+    width: 50px;
+    margin: 40px 0px 0px 40px;
+    @include breakpoint {
+      margin-left: 160px;
+    }
+  }
+  &__logo-text {
+    height: 50px;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #1968fc;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  &_social-box_fecebook {
+    height: 20px;
+    width: 10px;
+    margin-right: 3px;
+  }
+  &_social-box_instagram {
+    height: 20px;
+    width: 20px;
+  }
+  &_social-border {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &_social-box {
+    display: flex;
+    margin: 40px 0px 0px 50px;
+    @include breakpoint {
+      margin: 0px;
+      margin-left: 50px;
+    }
+  }
+  &__box {
+    display: flex;
+  }
+  &__menu-list {
+    display: none;
+    @include breakpoint {
+      display: flex;
+      margin-left: 70px;
+    }
+  }
+  &__menu-list_item {
+    height: 50px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__img-men {
+    height: 60px;
+    width: 55px;
+    position: absolute;
+    top: 70px;
+    right: 40px;
+    @include breakpoint {
+      height: 100px;
+      width: 90px;
+      margin: 30px 60px 0px 80px;
+      position: inherit;
+    }
+  }
+  &__menu {
+    display: flex;
+    align-items: center;
+  }
+}

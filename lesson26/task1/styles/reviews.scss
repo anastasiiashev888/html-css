@@ -1,0 +1,95 @@
+.reviews {
+  display: block;
+  margin-top: 50px;
+  background: linear-gradient(
+    180deg,
+    rgba(25, 104, 252, 0.0001) 0%,
+    rgba(25, 104, 252, 0.05) 23.07%,
+    rgba(25, 104, 252, 0.0001) 99.94%,
+    rgba(25, 104, 252, 0.05) 100%
+  );
+  min-width: 640px;
+  @include breakpoint {
+    display: flex;
+    margin: -82px auto;
+    width: 1120px;
+  }
+
+  &__card {
+    display: flex;
+    height: 200px;
+    width: 460px;
+    border: 0px;
+    padding: 40px;
+    background: #ffffff;
+    box-shadow: 0px 20px 60px 0px #3145f41a;
+    margin: auto;
+    @include breakpoint {
+      margin: 0px;
+    }
+
+    &:nth-child(2) {
+      margin-top: 50px;
+      @include breakpoint {
+        margin-left: 40px;
+        margin-top: 0px;
+      }
+      @include breakpoint {
+        &:nth-child(2) {
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+  &__photo {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    position: relative;
+  }
+  &__name-prof {
+    width: 340px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  &__name {
+    width: 340px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0px;
+  }
+  &__prof {
+    width: 340px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    opacity: 0.6;
+    color: #1967fa;
+    margin: 0px;
+  }
+  &__deckription {
+    height: 60px;
+    width: 460px;
+    position: absolute;
+    margin-top: 140px;
+  }
+  &__quote {
+    left: 460px;
+    position: absolute;
+    @include breakpoint {
+      margin-left: 300px;
+      position: initial;
+    }
+  }
+}

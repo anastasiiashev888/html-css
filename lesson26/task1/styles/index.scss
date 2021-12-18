@@ -1,12 +1,40 @@
 @import './header.scss';
 @import './headline.scss';
+@import './reviews.scss';
+@import './wokflow.scss';
+@import './features.scss';
+@import './users.scss';
+@import './purposes.scss';
+@import './consultation.scss';
+@import './stories.scss';
+@import './footer.scss';
 html {
   font-family: 'Mulish', sans-serif;
 }
+a {
+  color: #000000;
+}
+img {
+  width: 100%;
+}
 body {
-  height: 3843px;
-  width: 1440px;
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png);
+  height: 3390px;
+  min-width: 640px;
+  max-width: 1440;
+  background: linear-gradient(
+    180deg,
+    rgba(25, 104, 252, 0.0001) 0%,
+    rgba(25, 104, 252, 0.05) 23.07%,
+    rgba(25, 104, 252, 0.0001) 99.94%,
+    rgba(25, 104, 252, 0.05) 100%
+  );
+  @include breakpoint {
+    margin: 0px auto;
+    height: 3843px;
+    max-width: 1440px;
+
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png);
+  }
 }
 ul {
   list-style-type: none;

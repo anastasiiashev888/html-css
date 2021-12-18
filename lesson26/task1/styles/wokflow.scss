@@ -1,0 +1,181 @@
+.wokflow {
+  display: block;
+  width: 640px;
+  @include breakpoint {
+    margin-top: 120px;
+    width: 1165px;
+    margin: 0px 155px 0px 120px;
+  }
+  &__card__thee {
+    margin-top: 60px;
+    @include breakpoint {
+      display: flex;
+    }
+  }
+  &__card__h2 {
+    height: 60px;
+    width: 520px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #11223f;
+    margin: 120px auto 0px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    @include breakpoint {
+      margin: 0px;
+      margin-top: 178px;
+      margin-left: 40px;
+    }
+  }
+  &__card__br-h2 {
+    height: 2px;
+    width: 80px;
+    border-radius: 0px;
+    background: #1968fc;
+    box-shadow: 0px 2px 0px 0px #d1e1fe;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    @include breakpoint {
+      margin-bottom: 0px;
+      margin-left: -40px;
+    }
+  }
+  &__card__box {
+    display: flex;
+    height: 180px;
+    width: 520px;
+    background: #ffffff;
+    box-shadow: 0px 20px 60px 0px #3145f41a;
+    margin: 0px auto;
+    position: relative;
+
+    margin-top: 40px;
+    &_two {
+      margin-top: 40px;
+    }
+    &_one {
+      margin-top: 60px;
+    }
+    &_three {
+      margin-top: 40px;
+    }
+    @include breakpoint {
+      height: 220px;
+      width: 320px;
+      position: relative;
+      border-radius: 0px;
+      &_two {
+        margin-top: 40px;
+      }
+    }
+    &_one {
+      margin-top: 0px !important;
+    }
+  }
+  &_three {
+    margin-top: 40px;
+  }
+
+  &__card__img {
+    height: 36px;
+    width: 40px;
+    border-radius: 0px;
+  }
+  &__card__step {
+    height: 20px;
+    width: 400px;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #11223f;
+    text-transform: uppercase;
+  }
+  &__card__name {
+    height: 40px;
+    width: 400px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1967fa;
+    text-transform: uppercase;
+  }
+  &__card__deckription {
+    height: 30px;
+    width: 440px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #11223f;
+    @include breakpoint {
+      height: 60px;
+      width: 240px;
+    }
+  }
+
+  &__card__text {
+    margin: 40px 0px 0px 40px;
+  }
+  &__card__img {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    @include breakpoint {
+      top: 42px;
+    }
+  }
+  &__card__br-section {
+    width: 1px;
+    height: 40px;
+    border-left: 2px dashed #1968fc;
+    position: absolute;
+    display: block;
+    margin: -40px 0px 0px 119px;
+    z-index: 0;
+    &_two {
+      @include breakpoint {
+        width: 80px;
+        height: 1px;
+        border-top: 2px dashed #1968fc;
+        position: absolute;
+        display: block;
+        margin: 160px 2px 0px 365px;
+        z-index: 1;
+      }
+    }
+    &_three {
+      @include breakpoint {
+        width: 80px;
+        height: 1px;
+        border-top: 2px dashed #1968fc;
+        position: absolute;
+        display: block;
+        margin: 199px 2px 0px 765px;
+        z-index: 1;
+      }
+    }
+  }
+  &__card__square {
+    height: 25px;
+    width: 25px;
+    border-radius: 0px;
+    top: 160px;
+    position: absolute;
+    left: 500px;
+    @include breakpoint {
+      position: absolute;
+      top: 200px;
+      z-index: 1;
+      left: 300px;
+    }
+  }
+}

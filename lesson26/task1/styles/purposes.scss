@@ -1,0 +1,144 @@
+.purposes {
+  display: block;
+  height: 610px;
+  width: 520px;
+
+  border-radius: 0px;
+
+  margin: 0px auto;
+
+  @include breakpoint {
+    height: 310px;
+    width: 1160px;
+  }
+  &__card__all {
+    margin-top: 50px;
+    @include breakpoint {
+      margin: 0px;
+    }
+  }
+  &__card__h2 {
+    height: 120px;
+    width: 520px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #11223f;
+
+    text-transform: uppercase;
+    margin-top: 120px;
+    @include breakpoint {
+      margin: 0px;
+      margin-top: 120px;
+      margin-left: 40px;
+      height: 60px;
+      width: 1120px;
+    }
+  }
+  &__card_first {
+    @include breakpoint {
+      display: flex;
+    }
+  }
+  &__card_second {
+    @include breakpoint {
+      display: flex;
+    }
+  }
+
+  &__card__br-h2 {
+    height: 2px;
+    width: 80px;
+    border-radius: 0px;
+    background: #1968fc;
+    box-shadow: 0px 2px 0px 0px #d1e1fe;
+    margin-top: 10px;
+    margin-bottom: 48px;
+    @include breakpoint {
+      margin-bottom: 38px;
+      margin-left: -40px;
+    }
+  }
+  &__card__box {
+    background: #ffffff;
+    height: 80px;
+    width: 520px;
+    box-shadow: 0px 20px 60px 0px #3145f41a;
+    position: relative;
+    margin-top: 0px;
+
+    &_two {
+      margin-top: 40px;
+    }
+    &_one {
+      margin-top: 0px;
+    }
+    &_three {
+      margin-top: 40px;
+    }
+    &_four {
+      margin-top: 40px;
+    }
+
+    @include breakpoint {
+      display: inline-block;
+      height: 80px;
+      width: 540px;
+      position: relative;
+      border-radius: 0px;
+      margin: 0px;
+      &_one {
+        margin: 50px 40px 40px 40px;
+      }
+      &_two {
+        margin: 50px 0px 40px 0px;
+      }
+      &_three {
+        margin: 0px 40px 0px 40px;
+      }
+      &_four {
+        margin: 0px;
+      }
+    }
+  }
+  &__card__img {
+    height: 80px;
+    width: 80px;
+    border-radius: 0px;
+    @include breakpoint {
+      height: 80px;
+      width: 80px;
+    }
+  }
+
+  &__card__name {
+    height: 40px;
+    width: 400px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000000;
+
+    margin: 20px 0px 0px 20px;
+    color: #11223f;
+    @include breakpoint {
+      height: 40px;
+      width: 420px;
+      margin: 20px;
+    }
+  }
+
+  &__card__text {
+    display: flex;
+    margin: 0px 0px 0px 0px;
+  }
+  &_first {
+    @include breakpoint {
+      display: flex;
+    }
+  }
+}

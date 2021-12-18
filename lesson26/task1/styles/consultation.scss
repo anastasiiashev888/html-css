@@ -1,0 +1,96 @@
+.consultation {
+  display: flex;
+  flex-direction: column;
+  height: 460px;
+  width: 640px;
+  margin: 60px 0px 0px 0px;
+  background: #1968fc;
+
+  @include breakpoint {
+    height: 450px;
+    width: 1440px;
+    margin-top: 120px;
+    margin-left: 0px;
+  }
+
+  &__card__h2 {
+    height: 120px;
+    width: 520px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+
+    text-transform: uppercase;
+    margin: 60px 60px 0px 60px;
+    @include breakpoint {
+      margin: 80px 160px 0px 160px;
+      height: 60px;
+      width: 1120px;
+    }
+  }
+
+  &__card__br-h2 {
+    height: 2px;
+    width: 80px;
+    border-radius: 0px;
+    background: #ffffff;
+
+    box-shadow: 0px 2px 0px 0px #d1e1fe;
+    margin-top: 10px;
+    margin-bottom: 38px;
+    @include breakpoint {
+      margin-bottom: 38px;
+      margin-left: -40px;
+    }
+  }
+
+  &__card__deckription {
+    height: 80px;
+    width: 520px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+    margin: 38px 0px 0px 60px;
+    @include breakpoint {
+      height: 80px;
+      width: 640px;
+      margin: 60px 0px 0px 160px;
+    }
+  }
+  &__card_button {
+    height: 50px;
+    width: 320px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #1968fc;
+    background: #ffffff;
+    box-shadow: 4px 4px 20px 0px #ffffff66;
+    margin: 40px 0px 0px 60px;
+    border: 0px;
+    text-transform: uppercase;
+    @include breakpoint {
+      margin: 40px 0px 0px 160px;
+    }
+  }
+  &__card_img {
+    display: none;
+    @include breakpoint {
+      display: block;
+      height: 546px;
+      width: 599px;
+      margin-left: 839px;
+      margin-top: 20px;
+      position: absolute;
+    }
+  }
+}

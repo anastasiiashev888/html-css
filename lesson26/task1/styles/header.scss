@@ -1,20 +1,27 @@
+@import './breakpoint.scss';
+
 .page-header {
-  height: 50px;
-  width: 1120px;
-  margin: 30px auto 0px;
-  display: flex;
-  flex-direction: column;
+  @include breakpoint {
+    height: 50px;
+    max-width: 1120px;
+    min-width: 1024px;
+    margin: 30px auto 0px;
+    display: flex;
+    flex-direction: column;
+  }
   &__nav {
     display: flex;
     position: relative;
   }
   &__logo-text {
     display: flex;
-    margin-left: 0px;
+    margin: 40px 0px 0px 80px;
+    @include breakpoint {
+      margin: 0px;
+    }
   }
   &__text {
     margin-left: 10px;
-    font-family: Mulish;
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
@@ -24,9 +31,12 @@
     margin-left: 10px;
   }
   &__menu-button {
-    display: flex;
-    position: absolute;
-    right: 0px;
+    display: none;
+    @include breakpoint {
+      display: flex;
+      position: absolute;
+      right: 0px;
+    }
   }
   &__nav-menu {
     display: flex;

@@ -1,0 +1,123 @@
+.stories {
+  display: block;
+  height: 719px;
+  width: 520px;
+  margin: 60px auto 0px;
+
+  @include breakpoint {
+    height: 420px;
+    width: 1160px;
+    margin: 120px 160px 0px 120px;
+  }
+  &__card__all {
+    margin-top: 50px;
+    @include breakpoint {
+      display: flex;
+    }
+  }
+  &__card__h2 {
+    height: 60px;
+    width: 520px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #11223f;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    @include breakpoint {
+      margin: 0px;
+      margin-left: 40px;
+    }
+  }
+  &__card__name {
+    height: 40px;
+    width: 460px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #111111;
+    margin-left: 20px;
+    @include breakpoint {
+      height: 40px;
+      width: 420px;
+      font-size: 20px;
+    }
+  }
+
+  &__card__br-h2 {
+    height: 2px;
+    width: 80px;
+    border-radius: 0px;
+    background: #1968fc;
+    box-shadow: 0px 2px 0px 0px #d1e1fe;
+    margin-top: 10px;
+    margin-bottom: 42px;
+    @include breakpoint {
+      margin-bottom: 0px;
+      margin-left: -40px;
+    }
+  }
+  &__card__box {
+    &_one {
+      margin-top: 50px;
+    }
+    &_two {
+      margin-top: 40px;
+    }
+
+    @include breakpoint {
+      &_one {
+        margin-top: 0px;
+      }
+      &_two {
+        margin-top: 0px;
+        margin-left: 150px;
+      }
+    }
+  }
+  &__card__img {
+    height: 33px;
+    width: 40px;
+    border: 0px;
+
+    @include breakpoint {
+      height: 33px;
+      width: 40px;
+    }
+  }
+
+  &__card__deckription {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000000;
+
+    margin: 20px 0px 0px 60px;
+    &_one {
+      height: 210px;
+      width: 460px;
+      margin: 20px 0px 0px 60px;
+    }
+    &_two {
+      height: 240px;
+      width: 460px;
+      margin-top: 19px 0px 0px 60px;
+    }
+    @include breakpoint {
+      height: 240px;
+      width: 420px;
+    }
+  }
+
+  &__card__text {
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    align-items: center;
+  }
+}
