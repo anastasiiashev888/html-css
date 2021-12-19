@@ -1100,13 +1100,16 @@
   display: block;
   height: 719px;
   width: 520px;
-  margin: 60px auto 0px;
+  margin: 0px auto 0px;
+  display: flex;
+  flex-direction: column;
 }
 @media screen and (min-width: 1024px) {
   .stories {
     height: 420px;
     width: 1160px;
     margin: 120px 160px 0px 120px;
+    flex-direction: row;
   }
 }
 .stories__card__all {
@@ -1128,11 +1131,13 @@
   color: #11223f;
   text-transform: uppercase;
   margin-bottom: 0px;
+  margin-top: 60px;
 }
 @media screen and (min-width: 1024px) {
   .stories__card__h2 {
     margin: 0px;
     margin-left: 40px;
+    margin-top: 120px;
   }
 }
 .stories__card__name {
@@ -1170,7 +1175,7 @@
   }
 }
 .stories__card__box_one {
-  margin-top: 50px;
+  margin-top: 0px;
 }
 .stories__card__box_two {
   margin-top: 40px;
