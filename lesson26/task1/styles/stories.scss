@@ -102,13 +102,13 @@
     margin: 20px 0px 0px 60px;
     &_mob {
       @include breakpoint {
-        display: none;
+        display: none !important;
       }
     }
     &_pk {
       display: none;
       @include breakpoint {
-        display: block;
+        display: block !important;
       }
     }
     &_one {

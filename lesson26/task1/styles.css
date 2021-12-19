@@ -1195,7 +1195,7 @@
 }
 @media screen and (min-width: 1024px) {
   .stories__card__deckription_mob {
-    display: none;
+    display: none !important;
   }
 }
 .stories__card__deckription_pk {
@@ -1203,7 +1203,7 @@
 }
 @media screen and (min-width: 1024px) {
   .stories__card__deckription_pk {
-    display: block;
+    display: block !important;
   }
 }
 .stories__card__deckription_one {
