@@ -1088,7 +1088,7 @@
 @media screen and (min-width: 1024px) {
   .consultation__card_button {
     margin: 40px 0px 0px 160px;
-    letter-spacing: -1px;
+    letter-spacing: 0px;
   }
 }
 .consultation__card_img {
