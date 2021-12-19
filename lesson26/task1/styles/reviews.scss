@@ -60,7 +60,7 @@
     width: 340px;
     height: 30px;
     font-size: 18px;
-    font-weight: 600;
+
     line-height: 30px;
     letter-spacing: 0px;
     text-align: left;
@@ -75,7 +75,7 @@
     letter-spacing: 0px;
     text-align: left;
     opacity: 0.6;
-    color: #1967fa;
+
     margin: 0px;
   }
   &__deckription {
@@ -100,7 +100,7 @@
     }
   }
   &__quote {
-    left: 460px;
+    left: 490px;
     position: absolute;
     @include breakpoint {
       margin-left: 300px;
