@@ -28,7 +28,7 @@
     @include breakpoint {
       margin: 80px 160px 0px 160px;
       height: 60px;
-      width: 645px;
+      width: 655px;
     }
   }
 
@@ -45,23 +45,6 @@
     }
   }
 
-  &__card__deckription {
-    height: 80px;
-    width: 520px;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 40px;
-    letter-spacing: 0px;
-    text-align: left;
-    color: #ffffff;
-    margin: 60px 0px 0px 60px;
-    @include breakpoint {
-      height: 80px;
-      width: 629px;
-      margin: 60px 0px 0px 160px;
-    }
-  }
   &__card_button {
     height: 50px;
     width: 320px;
@@ -90,5 +73,22 @@
       margin-top: 20px;
       position: absolute;
     }
+  }
+}
+.consultation__description {
+  height: 80px;
+  width: 520px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  margin: 60px 0px 0px 60px;
+  @include breakpoint {
+    height: 80px;
+    width: 629px;
+    margin: 60px 0px 0px 160px;
   }
 }
