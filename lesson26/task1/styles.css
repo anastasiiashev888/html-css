@@ -892,7 +892,7 @@
     letter-spacing: 0px;
     text-align: left;
     color: #11223f;
-    margin-left: 0px;
+    margin-left: 20px;
     text-transform: uppercase;
     margin-top: 120px;
   }
@@ -951,10 +951,10 @@
     margin: 0px;
   }
   .purposes__card__box_one {
-    margin: 60px 40px 40px 0px;
+    margin: 55px 40px 40px 0px;
   }
   .purposes__card__box_two {
-    margin: 60px 0px 40px 0px;
+    margin: 55px 0px 40px 0px;
   }
   .purposes__card__box_three {
     margin: 0px 40px 0px 0px;
@@ -1074,7 +1074,7 @@
 .consultation__card_button {
   height: 50px;
   width: 320px;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700;
   line-height: 20px;
   letter-spacing: 0px;
