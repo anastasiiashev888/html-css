@@ -8,18 +8,16 @@
   margin: 0px auto;
 
   @include breakpoint {
-    height: 332px;
+    height: 310px;
     width: 1160px;
-    margin: 0px 160px 0px 120px;
   }
   &__card__all {
     margin-top: 50px;
     @include breakpoint {
       margin: 0px;
-      margin-top: -25px;
     }
   }
-  &__card__h2_mob {
+  &__card__h2 {
     height: 120px;
     width: 520px;
     font-size: 30px;
@@ -32,24 +30,11 @@
     text-transform: uppercase;
     margin-top: 120px;
     @include breakpoint {
-      display: none;
-    }
-  }
-  &__card__h2_pk {
-    display: none;
-    @include breakpoint {
-      display: block;
+      margin: 0px;
+      margin-top: 120px;
+      margin-left: 40px;
       height: 60px;
       width: 1120px;
-      font-size: 31px;
-      font-weight: 400;
-      line-height: 60px;
-      letter-spacing: 0px;
-      text-align: left;
-      color: #11223f;
-      margin-left: 20px;
-      text-transform: uppercase;
-      margin-top: 120px;
     }
   }
   &__card_first {
@@ -72,7 +57,8 @@
     margin-top: 10px;
     margin-bottom: 48px;
     @include breakpoint {
-      margin-bottom: 0px;
+      margin-bottom: 38px;
+      margin-left: -40px;
     }
   }
   &__card__box {
@@ -104,13 +90,13 @@
       border-radius: 0px;
       margin: 0px;
       &_one {
-        margin: 71px 40px 40px 20px;
+        margin: 50px 40px 40px 40px;
       }
       &_two {
-        margin: 71px 0px 40px 0px;
+        margin: 50px 0px 40px 0px;
       }
       &_three {
-        margin: 0px 40px 0px 20px;
+        margin: 0px 40px 0px 40px;
       }
       &_four {
         margin: 0px;

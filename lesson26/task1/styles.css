@@ -160,7 +160,7 @@
     font-size: 14px;
     font-weight: 700;
     line-height: 20px;
-    letter-spacing: 0px;
+    letter-spacing: -1px;
     text-align: center;
     color: #ffffff;
     margin: 40px 0px 0px;
@@ -847,9 +847,8 @@
 }
 @media screen and (min-width: 1024px) {
   .purposes {
-    height: 332px;
+    height: 310px;
     width: 1160px;
-    margin: 0px 160px 0px 120px;
   }
 }
 .purposes__card__all {
@@ -858,10 +857,9 @@
 @media screen and (min-width: 1024px) {
   .purposes__card__all {
     margin: 0px;
-    margin-top: -25px;
   }
 }
-.purposes__card__h2_mob {
+.purposes__card__h2 {
   height: 120px;
   width: 520px;
   font-size: 30px;
@@ -874,27 +872,12 @@
   margin-top: 120px;
 }
 @media screen and (min-width: 1024px) {
-  .purposes__card__h2_mob {
-    display: none;
-  }
-}
-.purposes__card__h2_pk {
-  display: none;
-}
-@media screen and (min-width: 1024px) {
-  .purposes__card__h2_pk {
-    display: block;
+  .purposes__card__h2 {
+    margin: 0px;
+    margin-top: 120px;
+    margin-left: 40px;
     height: 60px;
     width: 1120px;
-    font-size: 31px;
-    font-weight: 400;
-    line-height: 60px;
-    letter-spacing: 0px;
-    text-align: left;
-    color: #11223f;
-    margin-left: 20px;
-    text-transform: uppercase;
-    margin-top: 120px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -918,7 +901,8 @@
 }
 @media screen and (min-width: 1024px) {
   .purposes__card__br-h2 {
-    margin-bottom: 0px;
+    margin-bottom: 38px;
+    margin-left: -40px;
   }
 }
 .purposes__card__box {
@@ -951,13 +935,13 @@
     margin: 0px;
   }
   .purposes__card__box_one {
-    margin: 71px 40px 40px 20px;
+    margin: 50px 40px 40px 40px;
   }
   .purposes__card__box_two {
-    margin: 71px 0px 40px 0px;
+    margin: 50px 0px 40px 0px;
   }
   .purposes__card__box_three {
-    margin: 0px 40px 0px 20px;
+    margin: 0px 40px 0px 40px;
   }
   .purposes__card__box_four {
     margin: 0px;
