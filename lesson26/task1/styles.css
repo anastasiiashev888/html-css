@@ -14,7 +14,7 @@
 }
 .page-header__logo-text {
   display: flex;
-  margin: 0px 0px 0px 80px;
+  margin: 0px 0px 40px 80px;
 }
 @media screen and (min-width: 1024px) {
   .page-header__logo-text {
@@ -1237,6 +1237,7 @@
   display: flex;
   position: relative;
   margin-top: 61px;
+  margin-bottom: 90px;
 }
 @media screen and (min-width: 1024px) {
   .page-footer {
@@ -1347,7 +1348,6 @@ a {
 }
 
 body {
-  height: 3390px;
   min-width: 640px;
   max-width: 1440;
   background: linear-gradient(180deg, rgba(25, 104, 252, 0.0001) 0%, rgba(25, 104, 252, 0.05) 23.07%, rgba(25, 104, 252, 0.0001) 99.94%, rgba(25, 104, 252, 0.05) 100%);
@@ -1355,7 +1355,6 @@ body {
 @media screen and (min-width: 1024px) {
   body {
     margin: 0px auto;
-    height: 3843px;
     max-width: 1440px;
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png);
   }

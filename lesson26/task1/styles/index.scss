@@ -16,7 +16,6 @@ a {
 }
 
 body {
-  height: 3390px;
   min-width: 640px;
   max-width: 1440;
   background: linear-gradient(
@@ -28,7 +27,7 @@ body {
   );
   @include breakpoint {
     margin: 0px auto;
-    height: 3843px;
+
     max-width: 1440px;
 
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png);
