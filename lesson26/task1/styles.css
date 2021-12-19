@@ -1097,7 +1097,6 @@
 }
 
 .stories {
-  display: block;
   height: 719px;
   width: 520px;
   margin: 0px auto 0px;
@@ -1107,6 +1106,7 @@
     height: 420px;
     width: 1160px;
     margin: 120px 160px 0px 120px;
+    margin-top: 60px;
   }
 }
 .stories__card__all {
