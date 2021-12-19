@@ -576,7 +576,7 @@
 @media screen and (min-width: 1024px) {
   .features__card__square {
     position: absolute;
-    top: 200px;
+    top: 270px;
     z-index: 1;
     left: 300px;
   }
@@ -1072,6 +1072,7 @@
 @media screen and (min-width: 1024px) {
   .consultation__card_button {
     margin: 40px 0px 0px 160px;
+    letter-spacing: -1px;
   }
 }
 .consultation__card_img {
