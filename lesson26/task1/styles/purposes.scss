@@ -10,11 +10,13 @@
   @include breakpoint {
     height: 310px;
     width: 1160px;
+    margin: 0px 160px 0px 120px;
   }
   &__card__all {
     margin-top: 50px;
     @include breakpoint {
       margin: 0px;
+      margin-top: -25px;
     }
   }
   &__card__h2_mob {

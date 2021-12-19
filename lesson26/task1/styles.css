@@ -849,6 +849,7 @@
   .purposes {
     height: 310px;
     width: 1160px;
+    margin: 0px 160px 0px 120px;
   }
 }
 .purposes__card__all {
@@ -857,6 +858,7 @@
 @media screen and (min-width: 1024px) {
   .purposes__card__all {
     margin: 0px;
+    margin-top: -25px;
   }
 }
 .purposes__card__h2_mob {
