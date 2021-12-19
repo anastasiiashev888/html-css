@@ -1,6 +1,6 @@
 .reviews {
   display: block;
-  margin-top: 50px;
+
   background: linear-gradient(
     180deg,
     rgba(25, 104, 252, 0.0001) 0%,
@@ -9,10 +9,13 @@
     rgba(25, 104, 252, 0.05) 100%
   );
   min-width: 640px;
+  display: flex;
+  flex-direction: column;
   @include breakpoint {
     display: flex;
     margin: -82px auto;
     width: 1120px;
+    flex-direction: row;
   }
 
   &__card {
@@ -110,4 +113,7 @@
 }
 .review_one {
   margin-top: 50px;
+  @include breakpoint {
+    margin-top: 0px;
+  }
 }
