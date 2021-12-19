@@ -847,7 +847,7 @@
 }
 @media screen and (min-width: 1024px) {
   .purposes {
-    height: 310px;
+    height: 330px;
     width: 1160px;
     margin: 0px 160px 0px 120px;
   }
@@ -951,10 +951,10 @@
     margin: 0px;
   }
   .purposes__card__box_one {
-    margin: 68px 40px 40px 20px;
+    margin: 70px 40px 40px 20px;
   }
   .purposes__card__box_two {
-    margin: 68px 0px 40px 0px;
+    margin: 70px 0px 40px 0px;
   }
   .purposes__card__box_three {
     margin: 0px 40px 0px 20px;
