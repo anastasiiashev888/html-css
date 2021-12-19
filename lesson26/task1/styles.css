@@ -886,7 +886,7 @@
     display: block;
     height: 60px;
     width: 1120px;
-    font-size: 30px;
+    font-size: 31px;
     font-weight: 400;
     line-height: 60px;
     letter-spacing: 0px;
@@ -951,13 +951,13 @@
     margin: 0px;
   }
   .purposes__card__box_one {
-    margin: 55px 40px 40px 0px;
+    margin: 60px 40px 40px 20px;
   }
   .purposes__card__box_two {
-    margin: 55px 0px 40px 0px;
+    margin: 60px 0px 40px 0px;
   }
   .purposes__card__box_three {
-    margin: 0px 40px 0px 0px;
+    margin: 0px 40px 0px 20px;
   }
   .purposes__card__box_four {
     margin: 0px;
