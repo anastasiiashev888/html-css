@@ -99,6 +99,17 @@
     color: #000000;
 
     margin: 20px 0px 0px 60px;
+    &_mob {
+      @include breakpoint {
+        display: none;
+      }
+    }
+    &_pk {
+      display: none;
+      @include breakpoint {
+        display: block;
+      }
+    }
     &_one {
       height: 210px;
       width: 460px;

@@ -1195,6 +1195,19 @@
   color: #000000;
   margin: 20px 0px 0px 60px;
 }
+@media screen and (min-width: 1024px) {
+  .stories__card__deckription_mob {
+    display: none;
+  }
+}
+.stories__card__deckription_pk {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .stories__card__deckription_pk {
+    display: block;
+  }
+}
 .stories__card__deckription_one {
   height: 210px;
   width: 460px;
