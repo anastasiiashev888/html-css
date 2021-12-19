@@ -1242,7 +1242,7 @@
 }
 
 .margin {
-  margin-bottom: 28px;
+  margin-bottom: 26px;
 }
 
 .page-footer {
@@ -1355,6 +1355,7 @@
 
 html {
   font-family: "Mulish", sans-serif;
+  font-family: "muli", sans-serif;
 }
 
 a {
