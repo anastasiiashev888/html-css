@@ -3,14 +3,11 @@
   height: 719px;
   width: 520px;
   margin: 0px auto 0px;
-  display: flex;
-  flex-direction: column;
 
   @include breakpoint {
     height: 420px;
     width: 1160px;
     margin: 120px 160px 0px 120px;
-    flex-direction: row;
   }
   &__card__all {
     margin-top: 50px;
