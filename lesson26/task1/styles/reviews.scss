@@ -83,6 +83,21 @@
     width: 460px;
     position: absolute;
     margin-top: 140px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    &_mob {
+      @include breakpoint {
+        display: none !important;
+      }
+    }
+    &_pk {
+      display: none;
+      @include breakpoint {
+        display: block;
+      }
+    }
   }
   &__quote {
     left: 460px;

@@ -300,6 +300,23 @@
   width: 460px;
   position: absolute;
   margin-top: 140px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+}
+@media screen and (min-width: 1024px) {
+  .reviews__deckription_mob {
+    display: none !important;
+  }
+}
+.reviews__deckription_pk {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .reviews__deckription_pk {
+    display: block;
+  }
 }
 .reviews__quote {
   left: 460px;
@@ -1313,10 +1330,6 @@ html {
 
 a {
   color: #000000;
-}
-
-img {
-  width: 100%;
 }
 
 body {
