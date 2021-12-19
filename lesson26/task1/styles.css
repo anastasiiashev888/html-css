@@ -892,7 +892,7 @@
     letter-spacing: 0px;
     text-align: left;
     color: #11223f;
-    margin-left: 40px;
+    margin-left: 0px;
     text-transform: uppercase;
     margin-top: 120px;
   }
@@ -951,13 +951,13 @@
     margin: 0px;
   }
   .purposes__card__box_one {
-    margin: 50px 40px 40px 40px;
+    margin: 60px 40px 40px 0px;
   }
   .purposes__card__box_two {
-    margin: 50px 0px 40px 0px;
+    margin: 60px 0px 40px 0px;
   }
   .purposes__card__box_three {
-    margin: 0px 40px 0px 40px;
+    margin: 0px 40px 0px 0px;
   }
   .purposes__card__box_four {
     margin: 0px;

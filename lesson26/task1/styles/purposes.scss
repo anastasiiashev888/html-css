@@ -47,7 +47,7 @@
       letter-spacing: 0px;
       text-align: left;
       color: #11223f;
-      margin-left: 40px;
+      margin-left: 0px;
       text-transform: uppercase;
       margin-top: 120px;
     }
@@ -104,13 +104,13 @@
       border-radius: 0px;
       margin: 0px;
       &_one {
-        margin: 50px 40px 40px 40px;
+        margin: 60px 40px 40px 0px;
       }
       &_two {
-        margin: 50px 0px 40px 0px;
+        margin: 60px 0px 40px 0px;
       }
       &_three {
-        margin: 0px 40px 0px 40px;
+        margin: 0px 40px 0px 0px;
       }
       &_four {
         margin: 0px;
