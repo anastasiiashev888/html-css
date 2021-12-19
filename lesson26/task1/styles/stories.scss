@@ -2,12 +2,13 @@
   height: 719px;
   width: 520px;
   margin: 0px auto 0px;
+  padding-top: 60px;
 
   @include breakpoint {
     height: 420px;
     width: 1160px;
     margin: 120px 160px 0px 120px;
-    margin-top: 60px;
+    padding-top: 0px;
   }
   &__card__all {
     margin-top: 50px;
@@ -26,7 +27,7 @@
     color: #11223f;
     text-transform: uppercase;
     margin-bottom: 0px;
-    margin-top: 60px;
+    margin-top: 0px;
     @include breakpoint {
       margin: 0px;
       margin-left: 40px;

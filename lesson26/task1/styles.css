@@ -1100,13 +1100,14 @@
   height: 719px;
   width: 520px;
   margin: 0px auto 0px;
+  padding-top: 60px;
 }
 @media screen and (min-width: 1024px) {
   .stories {
     height: 420px;
     width: 1160px;
     margin: 120px 160px 0px 120px;
-    margin-top: 60px;
+    padding-top: 0px;
   }
 }
 .stories__card__all {
@@ -1128,7 +1129,7 @@
   color: #11223f;
   text-transform: uppercase;
   margin-bottom: 0px;
-  margin-top: 60px;
+  margin-top: 0px;
 }
 @media screen and (min-width: 1024px) {
   .stories__card__h2 {
